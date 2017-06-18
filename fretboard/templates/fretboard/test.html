@@ -1,0 +1,148 @@
+{% extends "blog/header.html" %}
+
+{% block content %}
+
+<div class="row">
+  <div class ="col-sm-2">
+      <h3 class="sidebar"><p>Scales</p></h3>
+      <h3 ><p class="sidebar">Chords</p></h3>
+  </div>
+
+
+
+
+    <div class="col-sm-8" id="Focus" >
+       <div class="row">
+           <div class="col-sm-6 col-xs-5"><h4 id="note">Note <select id="notes">
+  <option value="E">E</option>
+  <option value="F">F</option>
+  <option value="F#">F#</option>
+  <option value="G">G</option>
+               <option value="G#">G#</option>
+               <option value="A">A</option>
+               <option value="A#">A#</option>
+               <option value="B">B</option>
+               <option value="C">C</option>
+               <option value="C#">C#</option>
+               <option value="D">D</option>
+               <option value="D#">D#</option>
+
+
+
+
+
+</select> </h4></div>
+
+           <div id="scale-choice" class="col-sm-6 col-xs-7"><h4 id="scale">Scale <select id="scales">
+                <option value="Diatonic" disabled>Diatonic</option>
+                <option value="Ionian">Ionian</option>
+                <option value="Dorian">Dorian</option>
+                <option value="Phrygian">Phrygian</option>
+                <option value="Lydian">Lydian</option>
+                <option value="Mixolydian">Mixolydian</option>
+                <option value="Aeolian">Aeolian</option>
+                <option value="Locrian">Locrian</option>
+
+               <option value="Melodic Minor Modes" disabled>Melodic Minor Modes</option>
+               <option value="Melodic Minor">Melodic Minor</option>
+               <option value="Dorian b2">Dorian b2</option>
+               <option value="Lydian Augmented">Lydian Augmented</option>
+
+               </select></h4></div>
+
+
+       </div>
+
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+        <h1 id="scale_title" style="text-align: center ">{{scale_name}}</h1>
+                <p style="text-align: center ">{{scale.notes}}</p>
+
+
+
+
+              <!--- Name: {{chord.name}}
+                <br>
+                Root: {{chord.root}}
+                <br>
+                Intervals: {{chord.intervals}}
+                <br>
+                Notes: {{chord.notes}}
+
+                --->
+
+                Name: {{chord.name}}
+                <br>
+                Triad: {{chord.triad}}
+                <br>
+                Root: {{chord.root}}
+                <br>
+                Intervals: {{chord.intervals}}
+                <br>
+                Notes: {{chord.notes}}
+
+
+                {{interval}}
+
+
+
+
+                </div>
+            <div class="col-sm-4"></div>
+
+        </div>
+
+
+        <!-- This is where the buffer is between Scale notes and Triad headers -->
+        <div  class="row separator">
+<div class="col-sm-4"></div>
+        </div>
+        <div  class="row separator">
+<div class="col-sm-4"></div>
+        </div>
+        <div  class="row separator">
+<div class="col-sm-4"></div>
+        </div>
+
+        <!-- This is where the buffer is between Scale notes and Triad headers -->
+
+
+
+
+    <div id="body-info">
+    {% for note in scale.notes %}
+        <p><h4>{{note}} Triads</h4></p>
+            {% for key, value in scale.triads.items %}
+                    <div id="triadfoc" class="Triads-List">
+                    {% if key == note %}
+                        {% for chord in value %}
+                                <div id="triad" class="row">
+                                <div class="col-sm-1 col-xs-1"><h5><span class="glyphicon glyphicon-triangle-right"></span></h5></div>
+                                     <div  class="col-sm-8 col-xs-8">
+                               <h5><a href="#" >{{chord.root}}  {{chord.type}}</a></span></h5>  <p></p>
+                                     </div>
+                                </div>
+                        {% endfor %}
+                    {% endif %}
+                    </div>
+            {% endfor %}
+
+    {% endfor %}
+
+    </div>
+
+    </div>
+
+    <div class="col-sm-2">
+
+    </div>
+
+
+
+</div>
+
+
+
+
+{% endblock %}

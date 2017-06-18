@@ -1,0 +1,56 @@
+#background {
+    background-color: #FFFFFF;
+}
+
+#well_logo {
+    background-color: #0e3a42;
+}
+
+#logo {
+    border-radius: 40%;
+}
+
+
+#Focus {
+    border-radius: 1%;
+    background-color: #e3e7ea;
+}
+
+#scale_title {
+    //background-color: #f1f3f4;
+
+   #border-top-right-radius: 3%;
+   #border-top-left-radius: 3%;
+    #border-bottom-right-radius: 3%;
+
+
+}
+
+#triad {
+    background-color: #ffffff;
+    #background-color: seagreen;
+    //margin-top: .2%;
+}
+
+#body-info {
+    //margin-top: 20%;
+    //outline-color: ;
+    //background-color: #aaaaaa;
+}
+
+#triadfoc {
+    background-color: #c8cfd6;
+    outline-color: seagreen;
+}
+
+#scale {
+    float: right;
+    outline-color: seagreen;
+}
+
+.separator {
+    background-color: white;
+}
+
+.sidebar {
+}
