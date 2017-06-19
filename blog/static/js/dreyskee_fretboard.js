@@ -17,16 +17,6 @@ console.log(fretboard.strings[0].frets[1])
 
 
 function build_fretboard() {
-    /*
-    notes = {
-        e: fretboard.strings[0].frets,
-        a: fretboard.strings[1].frets,
-        d: fretboard.strings[2].frets,
-        g: fretboard.strings[3].frets,
-        b: fretboard.strings[4].frets,
-    }*/
-
-
 
     //this is for a dynamic fretboard, where, from bottom to top fretboardStrings[0] is the strings
     fretboardStrings = {}
@@ -40,49 +30,9 @@ function build_fretboard() {
 
 }
 
-//swap e a d g b for 0-5
-function change_class_names_for_masks() {
-    /*
-    $('.mask.low-e ul').toggleClass('.mask.low-e mask.' + 0 );
-    $('.mask.a ul').toggleClass('mask.a .mask.' + 1 );
-    $('.mask.d ul').toggleClass('mask.d .mask.' + 2 );
-    $('.mask.g ul').toggleClass('mask.g .mask.' + 3 );
-    $('.mask.b ul').toggleClass('mask.b .mask.' + 4 );
-    $('.mask.high-e ul').toggleClass('maskhigh-e mask.' + 5 );
-    */
-
-
-    /*
-    $('.mask.low-e').toggleClass('low-e string' + 0 );
-    $('.mask.a').toggleClass('a string' + 1 );
-    $('.mask.d').toggleClass('d string' + 2 );
-    $('.mask.g').toggleClass('g string' + 3 );
-    $('.mask.b').toggleClass('b string' + 4 );
-    $('.mask.high-e').toggleClass('high-e string' + 5 );
-    */
-    //document.write("sdf")
-    //document.write("sdf")
-}
-
-
-
 
 
 function mark_notes() {
-    /*
-    for (var i=0; i < notes.e.length; i++){
-        $('.mask.low-e ul').append('<li note='+notes.e[i]+'>'+notes.e[i]+'</li>')
-        $('.mask.a ul').append('<li note='+notes.a[i]+'>'+notes.a[i]+'</li>')
-        $('.mask.d ul').append('<li note='+notes.d[i]+'>'+notes.d[i]+'</li>')
-        $('.mask.g ul').append('<li note='+notes.g[i]+'>'+notes.g[i]+'</li>')
-        $('.mask.b ul').append('<li note='+notes.b[i]+'>'+notes.b[i]+'</li>')
-        $('.mask.high-e ul').append('<li note='+notes.e[i]+'>'+notes.e[i]+'</li>')
-    }  */
-    
-
-    //what I'm missing is dynamically GENERATING the HTML objects for each string
-
-
 
     //dynamically apply appropriate notes to strings on the fretboard from bottom to top
     //var frets = notes.e.length
@@ -122,20 +72,7 @@ function mark_notes() {
 }
 
 build_fretboard();
-change_class_names_for_masks();
 mark_notes();
-
-
-/*
-var notes = {
-    e: ['E','F','F#','G','G#','A','A#','B','C','C#','D','D#','E'],
-    a: ['A','A#','B','C','C#','D','D#','E','F','F#','G','G#',"A"],
-    d: ['D','D#','E','F','F#','G','G#','A','A#','B','C','C#','D'],
-    g: ['G','G#','A','A#','B','C','C#','D','D#','E','F','F#','G'],
-    b: ['B','C','C#','D','D#','E','F','F#','G','G#','A','A#','B']
-}*/
-
-
 
 
 
