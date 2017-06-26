@@ -1,53 +1,53 @@
 
- Chord for notes: [C#, A, E]
+ Chord for notes: [E, C#, A]
  	 Chord:A Major
  	 	 Notes:[A, C#, E]
  Chord for notes: [E, C, A]
  	 Chord:A Minor
  	 	 Notes:[A, C, E]
- Chord for notes: [E, B, A]
+ Chord for notes: [E, A, B]
  	 Chord:A Suspended Two
  	 	 Notes:[A, B, E]
  	 Chord:E Suspended Four
  	 	 Notes:[E, A, B]
- Chord for notes: [E, D, A]
+ Chord for notes: [E, A, D]
  	 Chord:A Suspended Four
  	 	 Notes:[A, D, E]
  	 Chord:D Suspended Two
  	 	 Notes:[D, E, A]
- Chord for notes: [D#, C, A]
+ Chord for notes: [C, A, D#]
  	 Chord:A Diminished
  	 	 Notes:[A, C, D#]
- Chord for notes: [C#, F, A]
+ Chord for notes: [F, C#, A]
  	 Chord:A Augmented
  	 	 Notes:[A, C#, F]
  	 Chord:C# Augmented
  	 	 Notes:[C#, F, A]
  	 Chord:F Augmented
  	 	 Notes:[F, A, C#]
- Chord for notes: [C#, D#, A]
+ Chord for notes: [C#, A, D#]
  	 Chord:A Flat Five
  	 	 Notes:[A, C#, D#]
- Chord for notes: [A#, D, F]
+ Chord for notes: [F, A#, D]
  	 Chord:A# Major
  	 	 Notes:[A#, D, F]
- Chord for notes: [C#, A#, F]
+ Chord for notes: [F, A#, C#]
  	 Chord:A# Minor
  	 	 Notes:[A#, C#, F]
- Chord for notes: [A#, F, C]
+ Chord for notes: [F, A#, C]
  	 Chord:A# Suspended Two
  	 	 Notes:[A#, C, F]
  	 Chord:F Suspended Four
  	 	 Notes:[F, A#, C]
- Chord for notes: [D#, A#, F]
+ Chord for notes: [F, A#, D#]
  	 Chord:A# Suspended Four
  	 	 Notes:[A#, D#, F]
  	 Chord:D# Suspended Two
  	 	 Notes:[D#, F, A#]
- Chord for notes: [C#, A#, E]
+ Chord for notes: [E, A#, C#]
  	 Chord:A# Diminished
  	 	 Notes:[A#, C#, E]
- Chord for notes: [F#, A#, D]
+ Chord for notes: [A#, F#, D]
  	 Chord:A# Augmented
  	 	 Notes:[A#, D, F#]
  	 Chord:D Augmented
@@ -57,191 +57,191 @@
  Chord for notes: [E, A#, D]
  	 Chord:A# Flat Five
  	 	 Notes:[A#, D, E]
- Chord for notes: [D#, B, F#]
+ Chord for notes: [F#, B, D#]
  	 Chord:B Major
  	 	 Notes:[B, D#, F#]
  Chord for notes: [F#, B, D]
  	 Chord:B Minor
  	 	 Notes:[B, D, F#]
- Chord for notes: [C#, F#, B]
+ Chord for notes: [F#, C#, B]
  	 Chord:B Suspended Two
  	 	 Notes:[B, C#, F#]
  	 Chord:F# Suspended Four
  	 	 Notes:[F#, B, C#]
- Chord for notes: [E, F#, B]
+ Chord for notes: [F#, E, B]
  	 Chord:B Suspended Four
  	 	 Notes:[B, E, F#]
  	 Chord:E Suspended Two
  	 	 Notes:[E, F#, B]
- Chord for notes: [B, D, F]
+ Chord for notes: [F, B, D]
  	 Chord:B Diminished
  	 	 Notes:[B, D, F]
- Chord for notes: [D#, B, G]
+ Chord for notes: [G, B, D#]
  	 Chord:B Augmented
  	 	 Notes:[B, D#, G]
  	 Chord:D# Augmented
  	 	 Notes:[D#, G, B]
  	 Chord:G Augmented
  	 	 Notes:[G, B, D#]
- Chord for notes: [D#, B, F]
+ Chord for notes: [F, B, D#]
  	 Chord:B Flat Five
  	 	 Notes:[B, D#, F]
- Chord for notes: [E, C, G]
+ Chord for notes: [G, E, C]
  	 Chord:C Major
  	 	 Notes:[C, E, G]
- Chord for notes: [D#, C, G]
+ Chord for notes: [G, C, D#]
  	 Chord:C Minor
  	 	 Notes:[C, D#, G]
- Chord for notes: [C, D, G]
+ Chord for notes: [G, C, D]
  	 Chord:C Suspended Two
  	 	 Notes:[C, D, G]
  	 Chord:G Suspended Four
  	 	 Notes:[G, C, D]
- Chord for notes: [C, G, F]
+ Chord for notes: [F, G, C]
  	 Chord:C Suspended Four
  	 	 Notes:[C, F, G]
  	 Chord:F Suspended Two
  	 	 Notes:[F, G, C]
- Chord for notes: [D#, C, F#]
+ Chord for notes: [C, F#, D#]
  	 Chord:C Diminished
  	 	 Notes:[C, D#, F#]
- Chord for notes: [E, C, G#]
+ Chord for notes: [G#, E, C]
  	 Chord:C Augmented
  	 	 Notes:[C, E, G#]
  	 Chord:E Augmented
  	 	 Notes:[E, G#, C]
  	 Chord:G# Augmented
  	 	 Notes:[G#, C, E]
- Chord for notes: [E, F#, C]
+ Chord for notes: [E, C, F#]
  	 Chord:C Flat Five
  	 	 Notes:[C, E, F#]
- Chord for notes: [C#, G#, F]
+ Chord for notes: [F, G#, C#]
  	 Chord:C# Major
  	 	 Notes:[C#, F, G#]
- Chord for notes: [C#, G#, E]
+ Chord for notes: [G#, E, C#]
  	 Chord:C# Minor
  	 	 Notes:[C#, E, G#]
- Chord for notes: [C#, D#, G#]
+ Chord for notes: [G#, C#, D#]
  	 Chord:C# Suspended Two
  	 	 Notes:[C#, D#, G#]
  	 Chord:G# Suspended Four
  	 	 Notes:[G#, C#, D#]
- Chord for notes: [C#, F#, G#]
+ Chord for notes: [G#, C#, F#]
  	 Chord:C# Suspended Four
  	 	 Notes:[C#, F#, G#]
  	 Chord:F# Suspended Two
  	 	 Notes:[F#, G#, C#]
- Chord for notes: [C#, G, E]
+ Chord for notes: [G, E, C#]
  	 Chord:C# Diminished
  	 	 Notes:[C#, E, G]
- Chord for notes: [C#, G, F]
+ Chord for notes: [F, G, C#]
  	 Chord:C# Flat Five
  	 	 Notes:[C#, F, G]
- Chord for notes: [F#, D, A]
+ Chord for notes: [A, F#, D]
  	 Chord:D Major
  	 	 Notes:[D, F#, A]
- Chord for notes: [A, D, F]
+ Chord for notes: [F, A, D]
  	 Chord:D Minor
  	 	 Notes:[D, F, A]
- Chord for notes: [D, G, A]
+ Chord for notes: [G, A, D]
  	 Chord:D Suspended Four
  	 	 Notes:[D, G, A]
  	 Chord:G Suspended Two
  	 	 Notes:[G, A, D]
- Chord for notes: [G#, D, F]
+ Chord for notes: [G#, F, D]
  	 Chord:D Diminished
  	 	 Notes:[D, F, G#]
- Chord for notes: [F#, G#, D]
+ Chord for notes: [G#, F#, D]
  	 Chord:D Flat Five
  	 	 Notes:[D, F#, G#]
- Chord for notes: [D#, A#, G]
+ Chord for notes: [G, A#, D#]
  	 Chord:D# Major
  	 	 Notes:[D#, G, A#]
- Chord for notes: [D#, A#, F#]
+ Chord for notes: [A#, F#, D#]
  	 Chord:D# Minor
  	 	 Notes:[D#, F#, A#]
- Chord for notes: [D#, A#, G#]
+ Chord for notes: [G#, A#, D#]
  	 Chord:D# Suspended Four
  	 	 Notes:[D#, G#, A#]
  	 Chord:G# Suspended Two
  	 	 Notes:[G#, A#, D#]
- Chord for notes: [D#, A, F#]
+ Chord for notes: [A, F#, D#]
  	 Chord:D# Diminished
  	 	 Notes:[D#, F#, A]
- Chord for notes: [D#, G, A]
+ Chord for notes: [G, A, D#]
  	 Chord:D# Flat Five
  	 	 Notes:[D#, G, A]
- Chord for notes: [E, B, G#]
+ Chord for notes: [G#, E, B]
  	 Chord:E Major
  	 	 Notes:[E, G#, B]
- Chord for notes: [E, B, G]
+ Chord for notes: [G, E, B]
  	 Chord:E Minor
  	 	 Notes:[E, G, B]
- Chord for notes: [E, A#, G]
+ Chord for notes: [G, E, A#]
  	 Chord:E Diminished
  	 	 Notes:[E, G, A#]
- Chord for notes: [E, A#, G#]
+ Chord for notes: [G#, E, A#]
  	 Chord:E Flat Five
  	 	 Notes:[E, G#, A#]
- Chord for notes: [A, F, C]
+ Chord for notes: [C, F, A]
  	 Chord:F Major
  	 	 Notes:[F, A, C]
- Chord for notes: [C, G#, F]
+ Chord for notes: [G#, F, C]
  	 Chord:F Minor
  	 	 Notes:[F, G#, C]
- Chord for notes: [B, G#, F]
+ Chord for notes: [G#, F, B]
  	 Chord:F Diminished
  	 	 Notes:[F, G#, B]
- Chord for notes: [A, F, B]
+ Chord for notes: [F, A, B]
  	 Chord:F Flat Five
  	 	 Notes:[F, A, B]
- Chord for notes: [C#, F#, A#]
+ Chord for notes: [A#, F#, C#]
  	 Chord:F# Major
  	 	 Notes:[F#, A#, C#]
- Chord for notes: [C#, F#, A]
+ Chord for notes: [A, C#, F#]
  	 Chord:F# Minor
  	 	 Notes:[F#, A, C#]
- Chord for notes: [F#, C, A]
+ Chord for notes: [A, C, F#]
  	 Chord:F# Diminished
  	 	 Notes:[F#, A, C]
- Chord for notes: [F#, A#, C]
+ Chord for notes: [C, A#, F#]
  	 Chord:F# Flat Five
  	 	 Notes:[F#, A#, C]
- Chord for notes: [B, D, G]
+ Chord for notes: [G, B, D]
  	 Chord:G Major
  	 	 Notes:[G, B, D]
- Chord for notes: [A#, D, G]
+ Chord for notes: [G, A#, D]
  	 Chord:G Minor
  	 	 Notes:[G, A#, D]
- Chord for notes: [C#, A#, G]
+ Chord for notes: [G, A#, C#]
  	 Chord:G Diminished
  	 	 Notes:[G, A#, C#]
- Chord for notes: [C#, B, G]
+ Chord for notes: [G, C#, B]
  	 Chord:G Flat Five
  	 	 Notes:[G, B, C#]
- Chord for notes: [D#, C, G#]
+ Chord for notes: [G#, C, D#]
  	 Chord:G# Major
  	 	 Notes:[G#, C, D#]
- Chord for notes: [D#, B, G#]
+ Chord for notes: [G#, B, D#]
  	 Chord:G# Minor
  	 	 Notes:[G#, B, D#]
- Chord for notes: [B, G#, D]
+ Chord for notes: [G#, B, D]
  	 Chord:G# Diminished
  	 	 Notes:[G#, B, D]
- Chord for notes: [C, G#, D]
+ Chord for notes: [G#, C, D]
  	 Chord:G# Flat Five
  	 	 Notes:[G#, C, D]
- Chord for notes: [C#, G, A, E]
+ Chord for notes: [G, E, C#, A]
  	 Chord:A Seven
  	 	 Notes:[A, C#, E, G]
  	 	 Triad:A Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, G#, A, E]
+ Chord for notes: [G#, E, C#, A]
  	 Chord:A Major Seven
  	 	 Notes:[A, C#, E, G#]
  	 	 Triad:A Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, F#, A, E]
+ Chord for notes: [F#, E, C#, A]
  	 Chord:A Six
  	 	 Notes:[A, C#, E, F#]
  	 	 Triad:A Major
@@ -250,7 +250,7 @@
  	 	 Notes:[F#, A, C#, E]
  	 	 Triad:F# Minor
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, C, G, A]
+ Chord for notes: [G, E, C, A]
  	 Chord:A Minor Seven
  	 	 Notes:[A, C, E, G]
  	 	 Triad:A Minor
@@ -259,7 +259,7 @@
  	 	 Notes:[C, E, G, A]
  	 	 Triad:C Major
  	 	 Tetrad:Sixth
- Chord for notes: [E, C, G#, A]
+ Chord for notes: [G#, E, C, A]
  	 Chord:A Minor Major Seven
  	 	 Notes:[A, C, E, G#]
  	 	 Triad:A Minor
@@ -268,7 +268,7 @@
  	 	 Notes:[C, E, G#, A]
  	 	 Triad:C Augmented
  	 	 Tetrad:Sixth
- Chord for notes: [E, F#, C, A]
+ Chord for notes: [F#, E, C, A]
  	 Chord:A Minor Major Six
  	 	 Notes:[A, C, E, F#]
  	 	 Triad:A Minor
@@ -281,17 +281,17 @@
  	 	 Notes:[F#, A, C, E]
  	 	 Triad:F# Diminished
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, B, G, A]
+ Chord for notes: [G, E, A, B]
  	 Chord:A Seven Suspended Two
  	 	 Notes:[A, B, E, G]
  	 	 Triad:A Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, B, G#, A]
+ Chord for notes: [G#, E, A, B]
  	 Chord:A Major Seven Suspended Two
  	 	 Notes:[A, B, E, G#]
  	 	 Triad:A Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, F#, B, A]
+ Chord for notes: [F#, E, A, B]
  	 Chord:A Six Suspended Two
  	 	 Notes:[A, B, E, F#]
  	 	 Triad:A Suspended Two
@@ -300,7 +300,7 @@
  	 	 Notes:[B, E, F#, A]
  	 	 Triad:B Suspended Four
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, D, G, A]
+ Chord for notes: [G, E, A, D]
  	 Chord:A Seven Suspended Four
  	 	 Notes:[A, D, E, G]
  	 	 Triad:A Suspended Four
@@ -309,17 +309,17 @@
  	 	 Notes:[G, A, D, E]
  	 	 Triad:G Suspended Two
  	 	 Tetrad:Sixth
- Chord for notes: [E, G#, D, A]
+ Chord for notes: [G#, E, A, D]
  	 Chord:A Major Seven Suspended Four
  	 	 Notes:[A, D, E, G#]
  	 	 Triad:A Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, F#, D, A]
+ Chord for notes: [F#, E, A, D]
  	 Chord:A Six Suspended Four
  	 	 Notes:[A, D, E, F#]
  	 	 Triad:A Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [D#, C, G, A]
+ Chord for notes: [G, C, A, D#]
  	 Chord:A Half Diminished Seven
  	 	 Notes:[A, C, D#, G]
  	 	 Triad:A Diminished
@@ -332,12 +332,12 @@
  	 	 Notes:[D#, G, A, C]
  	 	 Triad:D# Flat Five
  	 	 Tetrad:Sixth
- Chord for notes: [D#, C, G#, A]
+ Chord for notes: [G#, C, A, D#]
  	 Chord:A Diminished Major Seven
  	 	 Notes:[A, C, D#, G#]
  	 	 Triad:A Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, C, A, F#]
+ Chord for notes: [F#, C, A, D#]
  	 Chord:A Diminished Seven
  	 	 Notes:[A, C, D#, F#]
  	 	 Triad:A Diminished
@@ -354,17 +354,17 @@
  	 	 Notes:[F#, A, C, D#]
  	 	 Triad:F# Diminished
  	 	 Tetrad:Diminished Seventh
- Chord for notes: [C#, G, F, A]
+ Chord for notes: [F, G, C#, A]
  	 Chord:A Augmented Seven
  	 	 Notes:[A, C#, F, G]
  	 	 Triad:A Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, G#, F, A]
+ Chord for notes: [F, G#, C#, A]
  	 Chord:A Augmented Major Seven
  	 	 Notes:[A, C#, F, G#]
  	 	 Triad:A Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, F#, F, A]
+ Chord for notes: [F, F#, C#, A]
  	 Chord:A Six Augmented
  	 	 Notes:[A, C#, F, F#]
  	 	 Triad:A Augmented
@@ -373,7 +373,7 @@
  	 	 Notes:[F#, A, C#, F]
  	 	 Triad:F# Minor
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, D#, G, A]
+ Chord for notes: [G, C#, A, D#]
  	 Chord:A Seven Flat Five
  	 	 Notes:[A, C#, D#, G]
  	 	 Triad:A Flat Five
@@ -382,12 +382,12 @@
  	 	 Notes:[D#, G, A, C#]
  	 	 Triad:D# Flat Five
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, D#, G#, A]
+ Chord for notes: [G#, C#, A, D#]
  	 Chord:A Major Seven
  	 	 Notes:[A, C#, D#, G#]
  	 	 Triad:A Flat Five
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, D#, A, F#]
+ Chord for notes: [F#, C#, A, D#]
  	 Chord:A Six Flat Five
  	 	 Notes:[A, C#, D#, F#]
  	 	 Triad:A Flat Five
@@ -400,17 +400,17 @@
  	 	 Notes:[F#, A, C#, D#]
  	 	 Triad:F# Minor
  	 	 Tetrad:Sixth
- Chord for notes: [A#, D, G#, F]
+ Chord for notes: [F, G#, A#, D]
  	 Chord:A# Seven
  	 	 Notes:[A#, D, F, G#]
  	 	 Triad:A# Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [A#, D, F, A]
+ Chord for notes: [F, A#, A, D]
  	 Chord:A# Major Seven
  	 	 Notes:[A#, D, F, A]
  	 	 Triad:A# Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [A#, D, G, F]
+ Chord for notes: [F, G, A#, D]
  	 Chord:A# Six
  	 	 Notes:[A#, D, F, G]
  	 	 Triad:A# Major
@@ -419,7 +419,7 @@
  	 	 Notes:[G, A#, D, F]
  	 	 Triad:G Minor
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, A#, G#, F]
+ Chord for notes: [F, G#, A#, C#]
  	 Chord:A# Minor Seven
  	 	 Notes:[A#, C#, F, G#]
  	 	 Triad:A# Minor
@@ -428,7 +428,7 @@
  	 	 Notes:[C#, F, G#, A#]
  	 	 Triad:C# Major
  	 	 Tetrad:Sixth
- Chord for notes: [C#, A#, F, A]
+ Chord for notes: [F, A#, A, C#]
  	 Chord:A# Minor Major Seven
  	 	 Notes:[A#, C#, F, A]
  	 	 Triad:A# Minor
@@ -437,7 +437,7 @@
  	 	 Notes:[C#, F, A, A#]
  	 	 Triad:C# Augmented
  	 	 Tetrad:Sixth
- Chord for notes: [C#, A#, G, F]
+ Chord for notes: [F, G, A#, C#]
  	 Chord:A# Minor Major Six
  	 	 Notes:[A#, C#, F, G]
  	 	 Triad:A# Minor
@@ -450,17 +450,17 @@
  	 	 Notes:[G, A#, C#, F]
  	 	 Triad:G Diminished
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [A#, G#, F, C]
+ Chord for notes: [F, G#, A#, C]
  	 Chord:A# Seven Suspended Two
  	 	 Notes:[A#, C, F, G#]
  	 	 Triad:A# Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [A#, A, F, C]
+ Chord for notes: [F, A#, C, A]
  	 Chord:A# Major Seven Suspended Two
  	 	 Notes:[A#, C, F, A]
  	 	 Triad:A# Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [A#, G, F, C]
+ Chord for notes: [F, G, A#, C]
  	 Chord:A# Six Suspended Two
  	 	 Notes:[A#, C, F, G]
  	 	 Triad:A# Suspended Two
@@ -469,7 +469,7 @@
  	 	 Notes:[C, F, G, A#]
  	 	 Triad:C Suspended Four
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [D#, A#, G#, F]
+ Chord for notes: [F, G#, A#, D#]
  	 Chord:A# Seven Suspended Four
  	 	 Notes:[A#, D#, F, G#]
  	 	 Triad:A# Suspended Four
@@ -478,17 +478,17 @@
  	 	 Notes:[G#, A#, D#, F]
  	 	 Triad:G# Suspended Two
  	 	 Tetrad:Sixth
- Chord for notes: [D#, A#, F, A]
+ Chord for notes: [F, A#, A, D#]
  	 Chord:A# Major Seven Suspended Four
  	 	 Notes:[A#, D#, F, A]
  	 	 Triad:A# Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, A#, G, F]
+ Chord for notes: [F, G, A#, D#]
  	 Chord:A# Six Suspended Four
  	 	 Notes:[A#, D#, F, G]
  	 	 Triad:A# Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [C#, A#, G#, E]
+ Chord for notes: [G#, E, A#, C#]
  	 Chord:A# Half Diminished Seven
  	 	 Notes:[A#, C#, E, G#]
  	 	 Triad:A# Diminished
@@ -501,12 +501,12 @@
  	 	 Notes:[E, G#, A#, C#]
  	 	 Triad:E Flat Five
  	 	 Tetrad:Sixth
- Chord for notes: [C#, A#, A, E]
+ Chord for notes: [E, A#, A, C#]
  	 Chord:A# Diminished Major Seven
  	 	 Notes:[A#, C#, E, A]
  	 	 Triad:A# Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, A#, G, E]
+ Chord for notes: [G, E, A#, C#]
  	 Chord:A# Diminished Seven
  	 	 Notes:[A#, C#, E, G]
  	 	 Triad:A# Diminished
@@ -523,17 +523,17 @@
  	 	 Notes:[G, A#, C#, E]
  	 	 Triad:G Diminished
  	 	 Tetrad:Diminished Seventh
- Chord for notes: [F#, A#, D, G#]
+ Chord for notes: [G#, A#, F#, D]
  	 Chord:A# Augmented Seven
  	 	 Notes:[A#, D, F#, G#]
  	 	 Triad:A# Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [F#, A#, D, A]
+ Chord for notes: [A, A#, F#, D]
  	 Chord:A# Augmented Major Seven
  	 	 Notes:[A#, D, F#, A]
  	 	 Triad:A# Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [F#, A#, D, G]
+ Chord for notes: [G, A#, F#, D]
  	 Chord:A# Six Augmented
  	 	 Notes:[A#, D, F#, G]
  	 	 Triad:A# Augmented
@@ -542,7 +542,7 @@
  	 	 Notes:[G, A#, D, F#]
  	 	 Triad:G Minor
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, A#, D, G#]
+ Chord for notes: [G#, E, A#, D]
  	 Chord:A# Seven Flat Five
  	 	 Notes:[A#, D, E, G#]
  	 	 Triad:A# Flat Five
@@ -551,12 +551,12 @@
  	 	 Notes:[E, G#, A#, D]
  	 	 Triad:E Flat Five
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, A#, D, A]
+ Chord for notes: [E, A#, A, D]
  	 Chord:A# Major Seven
  	 	 Notes:[A#, D, E, A]
  	 	 Triad:A# Flat Five
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, A#, D, G]
+ Chord for notes: [G, E, A#, D]
  	 Chord:A# Six Flat Five
  	 	 Notes:[A#, D, E, G]
  	 	 Triad:A# Flat Five
@@ -569,17 +569,17 @@
  	 	 Notes:[G, A#, D, E]
  	 	 Triad:G Minor
  	 	 Tetrad:Sixth
- Chord for notes: [D#, B, A, F#]
+ Chord for notes: [A, F#, B, D#]
  	 Chord:B Seven
  	 	 Notes:[B, D#, F#, A]
  	 	 Triad:B Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [A#, D#, B, F#]
+ Chord for notes: [F#, A#, B, D#]
  	 Chord:B Major Seven
  	 	 Notes:[B, D#, F#, A#]
  	 	 Triad:B Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, B, G#, F#]
+ Chord for notes: [F#, G#, B, D#]
  	 Chord:B Six
  	 	 Notes:[B, D#, F#, G#]
  	 	 Triad:B Major
@@ -588,7 +588,7 @@
  	 	 Notes:[G#, B, D#, F#]
  	 	 Triad:G# Minor
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [F#, B, D, A]
+ Chord for notes: [A, F#, B, D]
  	 Chord:B Minor Seven
  	 	 Notes:[B, D, F#, A]
  	 	 Triad:B Minor
@@ -597,7 +597,7 @@
  	 	 Notes:[D, F#, A, B]
  	 	 Triad:D Major
  	 	 Tetrad:Sixth
- Chord for notes: [A#, F#, B, D]
+ Chord for notes: [F#, A#, B, D]
  	 Chord:B Minor Major Seven
  	 	 Notes:[B, D, F#, A#]
  	 	 Triad:B Minor
@@ -606,7 +606,7 @@
  	 	 Notes:[D, F#, A#, B]
  	 	 Triad:D Augmented
  	 	 Tetrad:Sixth
- Chord for notes: [F#, B, D, G#]
+ Chord for notes: [F#, G#, B, D]
  	 Chord:B Minor Major Six
  	 	 Notes:[B, D, F#, G#]
  	 	 Triad:B Minor
@@ -619,17 +619,17 @@
  	 	 Notes:[G#, B, D, F#]
  	 	 Triad:G# Diminished
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, F#, B, A]
+ Chord for notes: [A, F#, C#, B]
  	 Chord:B Seven Suspended Two
  	 	 Notes:[B, C#, F#, A]
  	 	 Triad:B Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, F#, B, A#]
+ Chord for notes: [F#, A#, C#, B]
  	 Chord:B Major Seven Suspended Two
  	 	 Notes:[B, C#, F#, A#]
  	 	 Triad:B Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, F#, B, G#]
+ Chord for notes: [F#, G#, C#, B]
  	 Chord:B Six Suspended Two
  	 	 Notes:[B, C#, F#, G#]
  	 	 Triad:B Suspended Two
@@ -638,17 +638,17 @@
  	 	 Notes:[C#, F#, G#, B]
  	 	 Triad:C# Suspended Four
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, F#, B, A#]
+ Chord for notes: [F#, E, A#, B]
  	 Chord:B Major Seven Suspended Four
  	 	 Notes:[B, E, F#, A#]
  	 	 Triad:B Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, F#, B, G#]
+ Chord for notes: [F#, G#, E, B]
  	 Chord:B Six Suspended Four
  	 	 Notes:[B, E, F#, G#]
  	 	 Triad:B Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [B, D, F, A]
+ Chord for notes: [A, F, B, D]
  	 Chord:B Half Diminished Seven
  	 	 Notes:[B, D, F, A]
  	 	 Triad:B Diminished
@@ -661,12 +661,12 @@
  	 	 Notes:[F, A, B, D]
  	 	 Triad:F Flat Five
  	 	 Tetrad:Sixth
- Chord for notes: [A#, B, D, F]
+ Chord for notes: [A#, F, B, D]
  	 Chord:B Diminished Major Seven
  	 	 Notes:[B, D, F, A#]
  	 	 Triad:B Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [B, D, G#, F]
+ Chord for notes: [G#, F, B, D]
  	 Chord:B Diminished Seven
  	 	 Notes:[B, D, F, G#]
  	 	 Triad:B Diminished
@@ -683,17 +683,17 @@
  	 	 Notes:[G#, B, D, F]
  	 	 Triad:G# Diminished
  	 	 Tetrad:Diminished Seventh
- Chord for notes: [D#, B, G, A]
+ Chord for notes: [A, G, B, D#]
  	 Chord:B Augmented Seven
  	 	 Notes:[B, D#, G, A]
  	 	 Triad:B Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [A#, D#, B, G]
+ Chord for notes: [G, A#, B, D#]
  	 Chord:B Augmented Major Seven
  	 	 Notes:[B, D#, G, A#]
  	 	 Triad:B Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, B, G#, G]
+ Chord for notes: [G#, G, B, D#]
  	 Chord:B Six Augmented
  	 	 Notes:[B, D#, G, G#]
  	 	 Triad:B Augmented
@@ -702,7 +702,7 @@
  	 	 Notes:[G#, B, D#, G]
  	 	 Triad:G# Minor
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, B, F, A]
+ Chord for notes: [A, F, B, D#]
  	 Chord:B Seven Flat Five
  	 	 Notes:[B, D#, F, A]
  	 	 Triad:B Flat Five
@@ -711,12 +711,12 @@
  	 	 Notes:[F, A, B, D#]
  	 	 Triad:F Flat Five
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [A#, D#, B, F]
+ Chord for notes: [A#, F, B, D#]
  	 Chord:B Major Seven
  	 	 Notes:[B, D#, F, A#]
  	 	 Triad:B Flat Five
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, B, G#, F]
+ Chord for notes: [G#, F, B, D#]
  	 Chord:B Six Flat Five
  	 	 Notes:[B, D#, F, G#]
  	 	 Triad:B Flat Five
@@ -729,17 +729,17 @@
  	 	 Notes:[G#, B, D#, F]
  	 	 Triad:G# Minor
  	 	 Tetrad:Sixth
- Chord for notes: [E, C, G, A#]
+ Chord for notes: [G, A#, E, C]
  	 Chord:C Seven
  	 	 Notes:[C, E, G, A#]
  	 	 Triad:C Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, C, G, B]
+ Chord for notes: [G, E, C, B]
  	 Chord:C Major Seven
  	 	 Notes:[C, E, G, B]
  	 	 Triad:C Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [A#, D#, C, G]
+ Chord for notes: [A#, G, C, D#]
  	 Chord:C Minor Seven
  	 	 Notes:[C, D#, G, A#]
  	 	 Triad:C Minor
@@ -748,7 +748,7 @@
  	 	 Notes:[D#, G, A#, C]
  	 	 Triad:D# Major
  	 	 Tetrad:Sixth
- Chord for notes: [D#, C, G, B]
+ Chord for notes: [G, C, B, D#]
  	 Chord:C Minor Major Seven
  	 	 Notes:[C, D#, G, B]
  	 	 Triad:C Minor
@@ -757,17 +757,17 @@
  	 	 Notes:[D#, G, B, C]
  	 	 Triad:D# Augmented
  	 	 Tetrad:Sixth
- Chord for notes: [A#, C, D, G]
+ Chord for notes: [A#, G, C, D]
  	 Chord:C Seven Suspended Two
  	 	 Notes:[C, D, G, A#]
  	 	 Triad:C Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C, D, G, B]
+ Chord for notes: [G, C, B, D]
  	 Chord:C Major Seven Suspended Two
  	 	 Notes:[C, D, G, B]
  	 	 Triad:C Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [C, D, G, A]
+ Chord for notes: [G, C, A, D]
  	 Chord:C Six Suspended Two
  	 	 Notes:[C, D, G, A]
  	 	 Triad:C Suspended Two
@@ -776,17 +776,17 @@
  	 	 Notes:[D, G, A, C]
  	 	 Triad:D Suspended Four
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C, G, F, B]
+ Chord for notes: [F, G, C, B]
  	 Chord:C Major Seven Suspended Four
  	 	 Notes:[C, F, G, B]
  	 	 Triad:C Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [C, G, F, A]
+ Chord for notes: [F, G, C, A]
  	 Chord:C Six Suspended Four
  	 	 Notes:[C, F, G, A]
  	 	 Triad:C Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [A#, D#, C, F#]
+ Chord for notes: [A#, C, F#, D#]
  	 Chord:C Half Diminished Seven
  	 	 Notes:[C, D#, F#, A#]
  	 	 Triad:C Diminished
@@ -799,22 +799,22 @@
  	 	 Notes:[F#, A#, C, D#]
  	 	 Triad:F# Flat Five
  	 	 Tetrad:Sixth
- Chord for notes: [B, D#, C, F#]
+ Chord for notes: [C, F#, D#, B]
  	 Chord:C Diminished Major Seven
  	 	 Notes:[C, D#, F#, B]
  	 	 Triad:C Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, C, G#, A#]
+ Chord for notes: [A#, G#, E, C]
  	 Chord:C Augmented Seven
  	 	 Notes:[C, E, G#, A#]
  	 	 Triad:C Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, C, G#, B]
+ Chord for notes: [G#, E, C, B]
  	 Chord:C Augmented Major Seven
  	 	 Notes:[C, E, G#, B]
  	 	 Triad:C Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, F#, C, A#]
+ Chord for notes: [A#, E, C, F#]
  	 Chord:C Seven Flat Five
  	 	 Notes:[C, E, F#, A#]
  	 	 Triad:C Flat Five
@@ -823,22 +823,22 @@
  	 	 Notes:[F#, A#, C, E]
  	 	 Triad:F# Flat Five
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, F#, C, B]
+ Chord for notes: [E, C, F#, B]
  	 Chord:C Major Seven
  	 	 Notes:[C, E, F#, B]
  	 	 Triad:C Flat Five
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, B, G#, F]
+ Chord for notes: [F, G#, C#, B]
  	 Chord:C# Seven
  	 	 Notes:[C#, F, G#, B]
  	 	 Triad:C# Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, C, G#, F]
+ Chord for notes: [F, G#, C#, C]
  	 Chord:C# Major Seven
  	 	 Notes:[C#, F, G#, C]
  	 	 Triad:C# Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, B, G#, E]
+ Chord for notes: [G#, E, C#, B]
  	 Chord:C# Minor Seven
  	 	 Notes:[C#, E, G#, B]
  	 	 Triad:C# Minor
@@ -847,7 +847,7 @@
  	 	 Notes:[E, G#, B, C#]
  	 	 Triad:E Major
  	 	 Tetrad:Sixth
- Chord for notes: [C#, C, G#, E]
+ Chord for notes: [G#, E, C#, C]
  	 Chord:C# Minor Major Seven
  	 	 Notes:[C#, E, G#, C]
  	 	 Triad:C# Minor
@@ -856,17 +856,17 @@
  	 	 Notes:[E, G#, C, C#]
  	 	 Triad:E Augmented
  	 	 Tetrad:Sixth
- Chord for notes: [C#, D#, B, G#]
+ Chord for notes: [G#, C#, B, D#]
  	 Chord:C# Seven Suspended Two
  	 	 Notes:[C#, D#, G#, B]
  	 	 Triad:C# Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, D#, C, G#]
+ Chord for notes: [G#, C#, C, D#]
  	 Chord:C# Major Seven Suspended Two
  	 	 Notes:[C#, D#, G#, C]
  	 	 Triad:C# Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, D#, A#, G#]
+ Chord for notes: [G#, A#, C#, D#]
  	 Chord:C# Six Suspended Two
  	 	 Notes:[C#, D#, G#, A#]
  	 	 Triad:C# Suspended Two
@@ -875,17 +875,17 @@
  	 	 Notes:[D#, G#, A#, C#]
  	 	 Triad:D# Suspended Four
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, F#, C, G#]
+ Chord for notes: [C, G#, C#, F#]
  	 Chord:C# Major Seven Suspended Four
  	 	 Notes:[C#, F#, G#, C]
  	 	 Triad:C# Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, F#, A#, G#]
+ Chord for notes: [G#, A#, C#, F#]
  	 Chord:C# Six Suspended Four
  	 	 Notes:[C#, F#, G#, A#]
  	 	 Triad:C# Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [C#, B, G, E]
+ Chord for notes: [G, E, C#, B]
  	 Chord:C# Half Diminished Seven
  	 	 Notes:[C#, E, G, B]
  	 	 Triad:C# Diminished
@@ -898,22 +898,22 @@
  	 	 Notes:[G, B, C#, E]
  	 	 Triad:G Flat Five
  	 	 Tetrad:Sixth
- Chord for notes: [C#, C, G, E]
+ Chord for notes: [G, E, C#, C]
  	 Chord:C# Diminished Major Seven
  	 	 Notes:[C#, E, G, C]
  	 	 Triad:C# Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, A, F, B]
+ Chord for notes: [F, C#, A, B]
  	 Chord:C# Augmented Seven
  	 	 Notes:[C#, F, A, B]
  	 	 Triad:C# Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, A, F, C]
+ Chord for notes: [F, C, C#, A]
  	 Chord:C# Augmented Major Seven
  	 	 Notes:[C#, F, A, C]
  	 	 Triad:C# Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, B, G, F]
+ Chord for notes: [F, G, C#, B]
  	 Chord:C# Seven Flat Five
  	 	 Notes:[C#, F, G, B]
  	 	 Triad:C# Flat Five
@@ -922,22 +922,22 @@
  	 	 Notes:[G, B, C#, F]
  	 	 Triad:G Flat Five
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, C, G, F]
+ Chord for notes: [F, G, C#, C]
  	 Chord:C# Major Seven
  	 	 Notes:[C#, F, G, C]
  	 	 Triad:C# Flat Five
  	 	 Tetrad:Major Seventh
- Chord for notes: [F#, C, D, A]
+ Chord for notes: [A, C, F#, D]
  	 Chord:D Seven
  	 	 Notes:[D, F#, A, C]
  	 	 Triad:D Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, F#, D, A]
+ Chord for notes: [A, C#, F#, D]
  	 Chord:D Major Seven
  	 	 Notes:[D, F#, A, C#]
  	 	 Triad:D Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [A, D, F, C]
+ Chord for notes: [C, F, A, D]
  	 Chord:D Minor Seven
  	 	 Notes:[D, F, A, C]
  	 	 Triad:D Minor
@@ -946,7 +946,7 @@
  	 	 Notes:[F, A, C, D]
  	 	 Triad:F Major
  	 	 Tetrad:Sixth
- Chord for notes: [C#, A, D, F]
+ Chord for notes: [F, A, C#, D]
  	 Chord:D Minor Major Seven
  	 	 Notes:[D, F, A, C#]
  	 	 Triad:D Minor
@@ -955,17 +955,17 @@
  	 	 Notes:[F, A, C#, D]
  	 	 Triad:F Augmented
  	 	 Tetrad:Sixth
- Chord for notes: [E, C, D, A]
+ Chord for notes: [E, C, A, D]
  	 Chord:D Seven Suspended Two
  	 	 Notes:[D, E, A, C]
  	 	 Triad:D Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, C#, D, A]
+ Chord for notes: [E, C#, A, D]
  	 Chord:D Major Seven Suspended Two
  	 	 Notes:[D, E, A, C#]
  	 	 Triad:D Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, B, D, A]
+ Chord for notes: [E, A, B, D]
  	 Chord:D Six Suspended Two
  	 	 Notes:[D, E, A, B]
  	 	 Triad:D Suspended Two
@@ -974,17 +974,17 @@
  	 	 Notes:[E, A, B, D]
  	 	 Triad:E Suspended Four
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, D, G, A]
+ Chord for notes: [G, C#, A, D]
  	 Chord:D Major Seven Suspended Four
  	 	 Notes:[D, G, A, C#]
  	 	 Triad:D Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [B, D, G, A]
+ Chord for notes: [G, A, B, D]
  	 Chord:D Six Suspended Four
  	 	 Notes:[D, G, A, B]
  	 	 Triad:D Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [G#, D, F, C]
+ Chord for notes: [G#, F, C, D]
  	 Chord:D Half Diminished Seven
  	 	 Notes:[D, F, G#, C]
  	 	 Triad:D Diminished
@@ -997,22 +997,22 @@
  	 	 Notes:[G#, C, D, F]
  	 	 Triad:G# Flat Five
  	 	 Tetrad:Sixth
- Chord for notes: [C#, G#, D, F]
+ Chord for notes: [G#, F, C#, D]
  	 Chord:D Diminished Major Seven
  	 	 Notes:[D, F, G#, C#]
  	 	 Triad:D Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [F#, A#, D, C]
+ Chord for notes: [C, A#, F#, D]
  	 Chord:D Augmented Seven
  	 	 Notes:[D, F#, A#, C]
  	 	 Triad:D Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, F#, A#, D]
+ Chord for notes: [A#, F#, C#, D]
  	 Chord:D Augmented Major Seven
  	 	 Notes:[D, F#, A#, C#]
  	 	 Triad:D Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [F#, G#, D, C]
+ Chord for notes: [G#, C, F#, D]
  	 Chord:D Seven Flat Five
  	 	 Notes:[D, F#, G#, C]
  	 	 Triad:D Flat Five
@@ -1021,22 +1021,22 @@
  	 	 Notes:[G#, C, D, F#]
  	 	 Triad:G# Flat Five
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, F#, G#, D]
+ Chord for notes: [G#, C#, F#, D]
  	 Chord:D Major Seven
  	 	 Notes:[D, F#, G#, C#]
  	 	 Triad:D Flat Five
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, D#, A#, G]
+ Chord for notes: [C#, G, A#, D#]
  	 Chord:D# Seven
  	 	 Notes:[D#, G, A#, C#]
  	 	 Triad:D# Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [D#, A#, D, G]
+ Chord for notes: [G, A#, D#, D]
  	 Chord:D# Major Seven
  	 	 Notes:[D#, G, A#, D]
  	 	 Triad:D# Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, D#, A#, F#]
+ Chord for notes: [C#, A#, F#, D#]
  	 Chord:D# Minor Seven
  	 	 Notes:[D#, F#, A#, C#]
  	 	 Triad:D# Minor
@@ -1045,7 +1045,7 @@
  	 	 Notes:[F#, A#, C#, D#]
  	 	 Triad:F# Major
  	 	 Tetrad:Sixth
- Chord for notes: [D#, A#, D, F#]
+ Chord for notes: [A#, F#, D#, D]
  	 Chord:D# Minor Major Seven
  	 	 Notes:[D#, F#, A#, D]
  	 	 Triad:D# Minor
@@ -1054,17 +1054,17 @@
  	 	 Notes:[F#, A#, D, D#]
  	 	 Triad:F# Augmented
  	 	 Tetrad:Sixth
- Chord for notes: [C#, D#, A#, F]
+ Chord for notes: [C#, A#, F, D#]
  	 Chord:D# Seven Suspended Two
  	 	 Notes:[D#, F, A#, C#]
  	 	 Triad:D# Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [D#, A#, D, F]
+ Chord for notes: [A#, F, D#, D]
  	 Chord:D# Major Seven Suspended Two
  	 	 Notes:[D#, F, A#, D]
  	 	 Triad:D# Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, A#, F, C]
+ Chord for notes: [A#, F, C, D#]
  	 Chord:D# Six Suspended Two
  	 	 Notes:[D#, F, A#, C]
  	 	 Triad:D# Suspended Two
@@ -1073,47 +1073,47 @@
  	 	 Notes:[F, A#, C, D#]
  	 	 Triad:F Suspended Four
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [D#, A#, G#, D]
+ Chord for notes: [G#, A#, D#, D]
  	 Chord:D# Major Seven Suspended Four
  	 	 Notes:[D#, G#, A#, D]
  	 	 Triad:D# Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, A#, G#, C]
+ Chord for notes: [G#, A#, C, D#]
  	 Chord:D# Six Suspended Four
  	 	 Notes:[D#, G#, A#, C]
  	 	 Triad:D# Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [D#, D, A, F#]
+ Chord for notes: [A, F#, D#, D]
  	 Chord:D# Diminished Major Seven
  	 	 Notes:[D#, F#, A, D]
  	 	 Triad:D# Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, D#, B, G]
+ Chord for notes: [G, C#, B, D#]
  	 Chord:D# Augmented Seven
  	 	 Notes:[D#, G, B, C#]
  	 	 Triad:D# Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [D#, B, D, G]
+ Chord for notes: [G, B, D#, D]
  	 Chord:D# Augmented Major Seven
  	 	 Notes:[D#, G, B, D]
  	 	 Triad:D# Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, D, G, A]
+ Chord for notes: [G, A, D#, D]
  	 Chord:D# Major Seven
  	 	 Notes:[D#, G, A, D]
  	 	 Triad:D# Flat Five
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, B, G#, D]
+ Chord for notes: [G#, E, B, D]
  	 Chord:E Seven
  	 	 Notes:[E, G#, B, D]
  	 	 Triad:E Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, D#, B, G#]
+ Chord for notes: [G#, E, B, D#]
  	 Chord:E Major Seven
  	 	 Notes:[E, G#, B, D#]
  	 	 Triad:E Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, B, D, G]
+ Chord for notes: [G, E, B, D]
  	 Chord:E Minor Seven
  	 	 Notes:[E, G, B, D]
  	 	 Triad:E Minor
@@ -1122,7 +1122,7 @@
  	 	 Notes:[G, B, D, E]
  	 	 Triad:G Major
  	 	 Tetrad:Sixth
- Chord for notes: [E, D#, B, G]
+ Chord for notes: [G, E, B, D#]
  	 Chord:E Minor Major Seven
  	 	 Notes:[E, G, B, D#]
  	 	 Triad:E Minor
@@ -1136,12 +1136,12 @@
  	 	 Notes:[E, F#, B, D]
  	 	 Triad:E Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, F#, B, D#]
+ Chord for notes: [D#, E, F#, B]
  	 Chord:E Major Seven Suspended Two
  	 	 Notes:[E, F#, B, D#]
  	 	 Triad:E Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, F#, B, C#]
+ Chord for notes: [E, C#, F#, B]
  	 Chord:E Six Suspended Two
  	 	 Notes:[E, F#, B, C#]
  	 	 Triad:E Suspended Two
@@ -1150,47 +1150,47 @@
  	 	 Notes:[F#, B, C#, E]
  	 	 Triad:F# Suspended Four
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, D#, B, A]
+ Chord for notes: [D#, E, A, B]
  	 Chord:E Major Seven Suspended Four
  	 	 Notes:[E, A, B, D#]
  	 	 Triad:E Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, C#, B, A]
+ Chord for notes: [E, C#, A, B]
  	 Chord:E Six Suspended Four
  	 	 Notes:[E, A, B, C#]
  	 	 Triad:E Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [E, D#, A#, G]
+ Chord for notes: [G, E, A#, D#]
  	 Chord:E Diminished Major Seven
  	 	 Notes:[E, G, A#, D#]
  	 	 Triad:E Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, C, G#, D]
+ Chord for notes: [G#, E, C, D]
  	 Chord:E Augmented Seven
  	 	 Notes:[E, G#, C, D]
  	 	 Triad:E Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, D#, C, G#]
+ Chord for notes: [G#, E, C, D#]
  	 Chord:E Augmented Major Seven
  	 	 Notes:[E, G#, C, D#]
  	 	 Triad:E Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, D#, A#, G#]
+ Chord for notes: [G#, E, A#, D#]
  	 Chord:E Major Seven
  	 	 Notes:[E, G#, A#, D#]
  	 	 Triad:E Flat Five
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, A, F, C]
+ Chord for notes: [C, F, A, D#]
  	 Chord:F Seven
  	 	 Notes:[F, A, C, D#]
  	 	 Triad:F Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, A, F, C]
+ Chord for notes: [C, E, F, A]
  	 Chord:F Major Seven
  	 	 Notes:[F, A, C, E]
  	 	 Triad:F Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, C, G#, F]
+ Chord for notes: [G#, F, C, D#]
  	 Chord:F Minor Seven
  	 	 Notes:[F, G#, C, D#]
  	 	 Triad:F Minor
@@ -1199,7 +1199,7 @@
  	 	 Notes:[G#, C, D#, F]
  	 	 Triad:G# Major
  	 	 Tetrad:Sixth
- Chord for notes: [E, C, G#, F]
+ Chord for notes: [G#, E, F, C]
  	 Chord:F Minor Major Seven
  	 	 Notes:[F, G#, C, E]
  	 	 Triad:F Minor
@@ -1208,17 +1208,17 @@
  	 	 Notes:[G#, C, E, F]
  	 	 Triad:G# Augmented
  	 	 Tetrad:Sixth
- Chord for notes: [D#, C, G, F]
+ Chord for notes: [G, F, C, D#]
  	 Chord:F Seven Suspended Two
  	 	 Notes:[F, G, C, D#]
  	 	 Triad:F Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, C, G, F]
+ Chord for notes: [G, F, C, E]
  	 Chord:F Major Seven Suspended Two
  	 	 Notes:[F, G, C, E]
  	 	 Triad:F Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [C, D, G, F]
+ Chord for notes: [G, F, C, D]
  	 Chord:F Six Suspended Two
  	 	 Notes:[F, G, C, D]
  	 	 Triad:F Suspended Two
@@ -1227,57 +1227,57 @@
  	 	 Notes:[G, C, D, F]
  	 	 Triad:G Suspended Four
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, A#, F, C]
+ Chord for notes: [A#, E, F, C]
  	 Chord:F Major Seven Suspended Four
  	 	 Notes:[F, A#, C, E]
  	 	 Triad:F Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [A#, D, F, C]
+ Chord for notes: [A#, F, C, D]
  	 Chord:F Six Suspended Four
  	 	 Notes:[F, A#, C, D]
  	 	 Triad:F Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [E, B, G#, F]
+ Chord for notes: [G#, E, F, B]
  	 Chord:F Diminished Major Seven
  	 	 Notes:[F, G#, B, E]
  	 	 Triad:F Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, D#, A, F]
+ Chord for notes: [D#, F, A, C#]
  	 Chord:F Augmented Seven
  	 	 Notes:[F, A, C#, D#]
  	 	 Triad:F Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, A, F, E]
+ Chord for notes: [E, F, A, C#]
  	 Chord:F Augmented Major Seven
  	 	 Notes:[F, A, C#, E]
  	 	 Triad:F Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, A, F, B]
+ Chord for notes: [E, F, A, B]
  	 Chord:F Major Seven
  	 	 Notes:[F, A, B, E]
  	 	 Triad:F Flat Five
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, F#, A#, E]
+ Chord for notes: [E, A#, F#, C#]
  	 Chord:F# Seven
  	 	 Notes:[F#, A#, C#, E]
  	 	 Triad:F# Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, F#, A#, F]
+ Chord for notes: [F, A#, F#, C#]
  	 Chord:F# Major Seven
  	 	 Notes:[F#, A#, C#, F]
  	 	 Triad:F# Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, F#, G#, E]
+ Chord for notes: [G#, E, C#, F#]
  	 Chord:F# Seven Suspended Two
  	 	 Notes:[F#, G#, C#, E]
  	 	 Triad:F# Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, F#, G#, F]
+ Chord for notes: [F, G#, C#, F#]
  	 Chord:F# Major Seven Suspended Two
  	 	 Notes:[F#, G#, C#, F]
  	 	 Triad:F# Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, F#, G#, D#]
+ Chord for notes: [G#, C#, F#, D#]
  	 Chord:F# Six Suspended Two
  	 	 Notes:[F#, G#, C#, D#]
  	 	 Triad:F# Suspended Two
@@ -1286,132 +1286,132 @@
  	 	 Notes:[G#, C#, D#, F#]
  	 	 Triad:G# Suspended Four
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [C#, F#, B, F]
+ Chord for notes: [F, C#, F#, B]
  	 Chord:F# Major Seven Suspended Four
  	 	 Notes:[F#, B, C#, F]
  	 	 Triad:F# Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, F#, B, D#]
+ Chord for notes: [D#, C#, F#, B]
  	 Chord:F# Six Suspended Four
  	 	 Notes:[F#, B, C#, D#]
  	 	 Triad:F# Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [F#, C, F, A]
+ Chord for notes: [A, F, C, F#]
  	 Chord:F# Diminished Major Seven
  	 	 Notes:[F#, A, C, F]
  	 	 Triad:F# Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, F#, A#, D]
+ Chord for notes: [E, A#, F#, D]
  	 Chord:F# Augmented Seven
  	 	 Notes:[F#, A#, D, E]
  	 	 Triad:F# Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [F#, A#, D, F]
+ Chord for notes: [F, A#, F#, D]
  	 Chord:F# Augmented Major Seven
  	 	 Notes:[F#, A#, D, F]
  	 	 Triad:F# Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [F#, A#, F, C]
+ Chord for notes: [F, C, A#, F#]
  	 Chord:F# Major Seven
  	 	 Notes:[F#, A#, C, F]
  	 	 Triad:F# Flat Five
  	 	 Tetrad:Major Seventh
- Chord for notes: [B, D, G, F]
+ Chord for notes: [G, F, B, D]
  	 Chord:G Seven
  	 	 Notes:[G, B, D, F]
  	 	 Triad:G Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [F#, B, D, G]
+ Chord for notes: [F#, G, B, D]
  	 Chord:G Major Seven
  	 	 Notes:[G, B, D, F#]
  	 	 Triad:G Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [D, G, F, A]
+ Chord for notes: [G, F, A, D]
  	 Chord:G Seven Suspended Two
  	 	 Notes:[G, A, D, F]
  	 	 Triad:G Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [F#, D, G, A]
+ Chord for notes: [F#, G, A, D]
  	 Chord:G Major Seven Suspended Two
  	 	 Notes:[G, A, D, F#]
  	 	 Triad:G Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [F#, C, D, G]
+ Chord for notes: [G, C, F#, D]
  	 Chord:G Major Seven Suspended Four
  	 	 Notes:[G, C, D, F#]
  	 	 Triad:G Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, C, D, G]
+ Chord for notes: [G, C, E, D]
  	 Chord:G Six Suspended Four
  	 	 Notes:[G, C, D, E]
  	 	 Triad:G Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [C#, F#, A#, G]
+ Chord for notes: [G, A#, F#, C#]
  	 Chord:G Diminished Major Seven
  	 	 Notes:[G, A#, C#, F#]
  	 	 Triad:G Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, B, G, F]
+ Chord for notes: [G, F, B, D#]
  	 Chord:G Augmented Seven
  	 	 Notes:[G, B, D#, F]
  	 	 Triad:G Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [D#, B, G, F#]
+ Chord for notes: [F#, G, B, D#]
  	 Chord:G Augmented Major Seven
  	 	 Notes:[G, B, D#, F#]
  	 	 Triad:G Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, F#, B, G]
+ Chord for notes: [F#, G, C#, B]
  	 Chord:G Major Seven
  	 	 Notes:[G, B, C#, F#]
  	 	 Triad:G Flat Five
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, C, G#, F#]
+ Chord for notes: [G#, C, F#, D#]
  	 Chord:G# Seven
  	 	 Notes:[G#, C, D#, F#]
  	 	 Triad:G# Major
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [D#, C, G#, G]
+ Chord for notes: [G#, G, C, D#]
  	 Chord:G# Major Seven
  	 	 Notes:[G#, C, D#, G]
  	 	 Triad:G# Major
  	 	 Tetrad:Major Seventh
- Chord for notes: [D#, A#, G#, F#]
+ Chord for notes: [G#, A#, F#, D#]
  	 Chord:G# Seven Suspended Two
  	 	 Notes:[G#, A#, D#, F#]
  	 	 Triad:G# Suspended Two
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [D#, A#, G#, G]
+ Chord for notes: [G#, G, A#, D#]
  	 Chord:G# Major Seven Suspended Two
  	 	 Notes:[G#, A#, D#, G]
  	 	 Triad:G# Suspended Two
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, D#, G#, G]
+ Chord for notes: [G#, G, C#, D#]
  	 Chord:G# Major Seven Suspended Four
  	 	 Notes:[G#, C#, D#, G]
  	 	 Triad:G# Suspended Four
  	 	 Tetrad:Major Seventh
- Chord for notes: [C#, D#, G#, F]
+ Chord for notes: [F, G#, C#, D#]
  	 Chord:G# Six Suspended Four
  	 	 Notes:[G#, C#, D#, F]
  	 	 Triad:G# Suspended Four
  	 	 Tetrad:Sixth
- Chord for notes: [B, G#, G, D]
+ Chord for notes: [G#, G, B, D]
  	 Chord:G# Diminished Major Seven
  	 	 Notes:[G#, B, D, G]
  	 	 Triad:G# Diminished
  	 	 Tetrad:Major Seventh
- Chord for notes: [E, F#, C, G#]
+ Chord for notes: [G#, E, C, F#]
  	 Chord:G# Augmented Seven
  	 	 Notes:[G#, C, E, F#]
  	 	 Triad:G# Augmented
  	 	 Tetrad:Dominant Seventh
- Chord for notes: [E, C, G#, G]
+ Chord for notes: [G, G#, E, C]
  	 Chord:G# Augmented Major Seven
  	 	 Notes:[G#, C, E, G]
  	 	 Triad:G# Augmented
  	 	 Tetrad:Major Seventh
- Chord for notes: [C, G#, G, D]
+ Chord for notes: [G#, G, C, D]
  	 Chord:G# Major Seven
  	 	 Notes:[G#, C, D, G]
  	 	 Triad:G# Flat Five

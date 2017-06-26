@@ -26,13 +26,14 @@ SECRET_KEY = 'efu4q##vvx3q^bez6kbsckfx(5z0-sk%lbrm6+^32m2wi=mnlx'
 DEBUG = True
 
 #Hosts I'm allowing
-ALLOWED_HOSTS = ["67641fb7.ngrok.io", "127.0.0.1", "eec1fa12.ngrok.io"]
+ALLOWED_HOSTS = ["67641fb7.ngrok.io", "127.0.0.1", "eec1fa12.ngrok.io", "085ea0d8.ngrok.io"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'fretboard',
+    'Pianokeys',
     'blog',
     'django.contrib.admin',
     'django.contrib.auth',

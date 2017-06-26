@@ -13,8 +13,21 @@ from Note import *
 from Fretboard import Fretboard
 # Create your views here.
 
+#put this in scale
+def as_dict(scale):
+	scale_dict = {}
 
+	scale_dict["root"] = scale.root.__str__()
+	scale_dict["notes"] = list(map(str,scale.notes))
+	scale_dict["intervals"] = list(map(str, scale.intervals))
+	scale_dict["interval_dict"] = scale.interval_dict()
+	#scale_dict["intervals"] = list(map(int, scale.intervals))
 
+	print("\n \n \n ", scale_dict)
+	print(list(map(str,scale.notes)))
+	#print("\n \n \t ", scale_dict)
+
+	return scale_dict
 
 
 def index(request):
@@ -24,6 +37,8 @@ def index(request):
 def scale(request, scale_type, root):
 	root = Note.from_string(root)
 	scl = Scale.factory(scale_type, root)
+
+
 
 
 	#a list of the notes?
@@ -51,7 +66,12 @@ def scale(request, scale_type, root):
 
 
 
+	#json scale object
+	scale_json = as_dict(scl)
+	print("SNE EFEFE-------", scale_json)
 
 
-	return render(request, 'fretboard/fretboard.html',{'content': scl.notes, 'text_notes' : json_notes, 'scale_name': scl.name, 'scale' : scl, 'the_triads': scl.triads, 'seven_chords': scl.tetrads, 'fretboard': fretboard })
+
+
+	return render(request, 'fretboard/fretboard.html',{'content': scl.notes, 'text_notes' : json_notes, 'scale_name': scl.name, 'scale' : scl, 'the_triads': scl.triads, 'seven_chords': scl.tetrads, 'fretboard': fretboard, 'scale_object': scale_json })
 

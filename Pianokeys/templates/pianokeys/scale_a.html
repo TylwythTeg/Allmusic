@@ -91,37 +91,14 @@
                                 <div class="col-sm-1 col-xs-1"><h5><span class="glyphicon glyphicon-triangle-right"></span></h5></div>
                                      <div  class="col-sm-8 col-xs-8">
                                <h5><a href="#" >{{chord.root}}  {{chord.type}}</a></span></h5>  <p></p>
-
-                                {% for triad_key, tetrad_list in seven_chords.items %}
-                                    {% for s_chord in tetrad_list %}
-
-
-                                          {% if triad_key == chord  %}
-                                              <div class="row b_chords_row">
-                                    <div class="col-sm-1 col-xs-1"><h5><span class="glyphicon glyphicon-triangle-right"></span></h5></div>
-                                         <div  class="col-sm-8 col-xs-8">
-                                   <h5><a href="#" >{{s_chord.root}}  {{s_chord.type}}</a></span></h5>  <p></p>
-                                         </div>
-                                    </div>
-                                         {% endif %}
-
-                                    {% endfor %}
-                                {% endfor %}
-
-
-
-
                                      </div>
                                 </div>
                         {% endfor %}
                     {% endif %}
-
                     </div>
-                    <p></p>
             {% endfor %}
 
     {% endfor %}
-
 
     </div>
 

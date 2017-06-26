@@ -1,6 +1,5 @@
 
 
-
 <body>
 {% block content %}
 {% load static %}
@@ -113,10 +112,13 @@
 <script>
 	var textNotes = {{text_notes|safe}};
 	var fretboard = {{fretboard|safe}};
+	var scale_obj = {{scale_object|safe}};
 </script>
 
 
 <link rel="stylesheet" href="{% static 'css/drey_fretboard.css' %}" type = "text/css"/>
+
+
 
 <!-- Guitar Fretboard Visualization by DreySkee: https://codepen.io/DreySkee/pen/bddpqM -->
 
@@ -124,6 +126,8 @@
   src="http://code.jquery.com/jquery-2.1.3.min.js"
   integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM="
   crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
 
 <script src="{% static 'js/dreyskee_fretboard.js' %}"></script>
 <script src="{% static 'js/scale_fretboard.js' %}"></script>

@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^blog/', include('blog.urls')),
     url(r'^fretboard/', include('fretboard.urls')),
+    url(r'^pianokeys/', include('Pianokeys.urls')),
 ]
