@@ -22,4 +22,4 @@ def scale(request, scale_type, root):
 
 
     #return HttpResponse("scale")
-    return render(request, "pianokeys/pianokeys.html", {'scale_name': scl.name})
+    return render(request, "pianokeys/pianokeys.html", {'scale_name': scl.name, 'scale_object': scl.as_dict()})

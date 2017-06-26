@@ -68,7 +68,7 @@ function interval_to_color(interval) {
 
 
 //Use Fretboard.py to return array 
-
+/* */
 
 console.log(fretboard)
 console.log(fretboard.strings[0].frets[1])
