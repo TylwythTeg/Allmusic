@@ -1,11 +1,11 @@
 /* Dreyskee */
-
+console.log(scale_obj);
 var slideSpeed = 300;
 var noteToShow = "All";
 var notesToShow = textNotes["notes"];
 var canClick = true;
 
-console.log(scale_obj)
+//console.log(scale_object)
 
 
 
@@ -51,7 +51,7 @@ function interval_to_color(interval) {
             return jQuery.Color(" rgba(211,84,164,1) ");
             break;
         default:
-            return jQuery.Color(" rgba(213,92,92,1) ");
+            return jQuery.Color(" rgba(0,0,0,1) ");
             break;
             //code block
     }
@@ -86,7 +86,7 @@ function build_fretboard() {
         fretboardStrings[i] = fretboard.strings[i].frets
         frets_count = fretboard.strings[i].frets.length
     }
-    console.log(fretboardStrings)
+    //console.log(fretboardStrings)
 
 }
 
@@ -97,8 +97,8 @@ function mark_notes() {
     //dynamically apply appropriate notes to strings on the fretboard from bottom to top
     //var frets = notes.e.length
     var frets = frets_count
-    console.log(frets)
-    console.log(fretboardStrings.length)
+    //console.log(frets)
+    //console.log(fretboardStrings.length)
 
 
     var these_strings = {
@@ -165,15 +165,15 @@ function color_notes() {
         if (i === 0) 
             continue;
         
-        console.log(scale_obj.intervals[i-1]);
+        //console.log(scale_obj.intervals[i-1]);
 
         //$('.mask.' + these_strings[0] + ' ul li').animate({
          //       backgroundColor: interval_to_color(scale_obj.intervals[i-1])
         //    }, 0);
 
                 note_elements = $('.' + these_strings[0] + ' ul li');
-                console.log("h9i");
-                console.log(note_elements);
+                //console.log("h9i");
+                //console.log(note_elements);
 
                 for(jams = 0; jams < note_elements.length; jams++) {
                     //note_elements[jams].animate({
@@ -181,19 +181,19 @@ function color_notes() {
                     //}, 0);
 
 
-                    console.log("found");
-                    console.log(note_elements[jams]);
+                    //console.log("found");
+                    //console.log(note_elements[jams]);
                     //note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.intervals[jams-1])
 
                     var the_noted = note_elements[jams].innerText;
-                    console.log(the_noted);
-                    console.log(scale_obj.interval_dict[the_noted]);
+                    //console.log(the_noted);
+                    //console.log(scale_obj.interval_dict[the_noted]);
                     note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.interval_dict[the_noted])
                 }
                 //srting 2
                 note_elements = $('.' + these_strings[1] + ' ul li');
-                console.log("h9i");
-                console.log(note_elements);
+                //console.log("h9i");
+                //console.log(note_elements);
 
                 for(jams = 0; jams < note_elements.length; jams++) {
                     //note_elements[jams].animate({
@@ -201,19 +201,19 @@ function color_notes() {
                     //}, 0);
 
 
-                    console.log("found");
-                    console.log(note_elements[jams]);
+                    //console.log("found");
+                    //console.log(note_elements[jams]);
                     //note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.intervals[jams-1])
 
                     var the_noted = note_elements[jams].innerText;
-                    console.log(the_noted);
-                    console.log(scale_obj.interval_dict[the_noted]);
+                    //console.log(the_noted);
+                    //console.log(scale_obj.interval_dict[the_noted]);
                     note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.interval_dict[the_noted])
                 }
                 //srting 3
                 note_elements = $('.' + these_strings[2] + ' ul li');
-                console.log("h9i");
-                console.log(note_elements);
+                //console.log("h9i");
+                //console.log(note_elements);
 
                 for(jams = 0; jams < note_elements.length; jams++) {
                     //note_elements[jams].animate({
@@ -221,19 +221,19 @@ function color_notes() {
                     //}, 0);
 
 
-                    console.log("found");
-                    console.log(note_elements[jams]);
+                    //console.log("found");
+                    //console.log(note_elements[jams]);
                     //note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.intervals[jams-1])
 
                     var the_noted = note_elements[jams].innerText;
-                    console.log(the_noted);
-                    console.log(scale_obj.interval_dict[the_noted]);
+                   //console.log(the_noted);
+                    //console.log(scale_obj.interval_dict[the_noted]);
                     note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.interval_dict[the_noted])
                 }
                 //srting 4
                 note_elements = $('.' + these_strings[3] + ' ul li');
-                console.log("h9i");
-                console.log(note_elements);
+                //console.log("h9i");
+                //console.log(note_elements);
 
                 for(jams = 0; jams < note_elements.length; jams++) {
                     //note_elements[jams].animate({
@@ -241,19 +241,19 @@ function color_notes() {
                     //}, 0);
 
 
-                    console.log("found");
-                    console.log(note_elements[jams]);
+                    //console.log("found");
+                    //console.log(note_elements[jams]);
                     //note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.intervals[jams-1])
 
                     var the_noted = note_elements[jams].innerText;
-                    console.log(the_noted);
-                    console.log(scale_obj.interval_dict[the_noted]);
+                    //console.log(the_noted);
+                    //console.log(scale_obj.interval_dict[the_noted]);
                     note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.interval_dict[the_noted])
                 }
                 //srting 5
                 note_elements = $('.' + these_strings[4] + ' ul li');
-                console.log("h9i");
-                console.log(note_elements);
+                //console.log("h9i");
+                //console.log(note_elements);
 
                 for(jams = 0; jams < note_elements.length; jams++) {
                     //note_elements[jams].animate({
@@ -261,19 +261,19 @@ function color_notes() {
                     //}, 0);
 
 
-                    console.log("found");
-                    console.log(note_elements[jams]);
+                    //console.log("found");
+                    //console.log(note_elements[jams]);
                     //note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.intervals[jams-1])
 
                     var the_noted = note_elements[jams].innerText;
-                    console.log(the_noted);
-                    console.log(scale_obj.interval_dict[the_noted]);
+                    //console.log(the_noted);
+                    //console.log(scale_obj.interval_dict[the_noted]);
                     note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.interval_dict[the_noted])
                 }
                 //srting 6
                 note_elements = $('.' + these_strings[5] + ' ul li');
-                console.log("h9i");
-                console.log(note_elements);
+                //console.log("h9i");
+                //console.log(note_elements);
 
                 for(jams = 0; jams < note_elements.length; jams++) {
                     //note_elements[jams].animate({
@@ -281,13 +281,13 @@ function color_notes() {
                     //}, 0);
 
 
-                    console.log("found");
-                    console.log(note_elements[jams]);
+                    //console.log("found");
+                    //console.log(note_elements[jams]);
                     //note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.intervals[jams-1])
 
                     var the_noted = note_elements[jams].innerText;
-                    console.log(the_noted);
-                    console.log(scale_obj.interval_dict[the_noted]);
+                    //console.log(the_noted);
+                   // console.log(scale_obj.interval_dict[the_noted]);
                     note_elements[jams].style.backgroundColor = interval_to_color(scale_obj.interval_dict[the_noted])
                 }
         /*
@@ -492,6 +492,20 @@ function notesNotIn(notes) {
     for (var i = 0; i < notes.length; i++){
         nonNotes = nonNotes.not('[note="'+ notes[i] +'"]');
     }
+
+    console.log("\n\n\n\n\n\n\n\n\n\nHEY");
+
+    //will need to set up open notes with those note= to make this work
+    /*
+    nonOpenNotes = $('.guitar-neck .open-notes li');
+    for (var i = 0; i < notes.length; i++){
+        nonOpenNotes = nonOpenNotes.not('[note="'+ notes[i] +'"]');
+        console.log(nonOpenNotes);
+    }
+
+    //nonNotes = nonNotes.merge(nonOpenNotes);
+    nonNotes = $.extend(nonNotes,nonOpenNotes);
+    */
 
     return nonNotes;
 }

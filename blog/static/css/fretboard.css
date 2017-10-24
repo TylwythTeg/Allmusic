@@ -1,93 +1,208 @@
-#background {
-    background-color: #FFFFFF;
+h1 {
+    text-align: center;
+    margin: 0.5em 0;
+    
 }
 
-#well_logo {
-    background-color: #0e3a42;
+body {
+    margin:0;
 }
 
-#logo {
-    border-radius: 40%;
+.neck {
+    position: relative;
+    margin: 20px auto;
+    background-color: rgb(40, 31, 18);
+    width: 993px;
+    height: 246px;
+    box-shadow: inset -1px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    
+    /* Make elements on neck unselectable*/
+    /* And normal cursor by default */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    
+    overflow: hidden;
+    
+}
+
+/* Neck minus 0 fret is 954px */
+.frets {
+    position: absolute;
+    top: 0;
+    left: 86px;
+    width: 1200px;
+    height: 100%;
+    overflow: visible;
 }
 
 
-#Focus {
-    border-radius: 1%;
-    background-color: #e3e7ea;
+.frets li {
+    width 3px;
+    float: left;
+    height: 103%;
+    margin-top: -2%;
+    margin-left: 77px;
+    background-color: rgb(215, 214, 214);
+    display: inline-block;
+    border-right: 2px solid #686868;
+    
 }
 
-#scale_title {
-    //background-color: #f1f3f4;
-
-   #border-top-right-radius: 3%;
-   #border-top-left-radius: 3%;
-    #border-bottom-right-radius: 3%;
-
-
+/* special spacing for the 0th fret */
+.frets:nth-child(1) {
+    margin-left: -160px;
+    border-right: none;
+    
 }
 
-#triad {
-    background-color: #ffffff;
-    #background-color: seagreen;
-    //margin-top: .2%;
+.strings {
+    position: absolute;
+    //top: 10px;
+    top: 4%;
+    left: 6;
+    width: 948px;
+    height: 100%;
+    
+    
 }
 
-#body-info {
-    //margin-top: 20%;
-    //outline-color: ;
-    //background-color: #aaaaaa;
+.strings li {
+    display: block;
+    border-bottom: 1px solid #958963;
+    //margin-bottom:  39px;
+    margin-bottom:  4%;
+   
 }
 
-#triadfoc {
-    background-color: #c8cfd6;
-    outline-color: seagreen;
+.dots {
+    position: absolute;
+    left: 194px;
+    width: 660px;
+    height: 16px;
+    
+    top: 40%;
+    
 }
 
-#scale {
+.dots li {
+    float:left;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: rgb(173, 170, 164);
+    margin-right:142px;
+}
+
+/* multi dot */
+.dots_multi {
+    position: absolute;
+    left: 100px;
+    width: 820px;
+    top: 24%;
+    height: 100%
+}
+
+.dots_multi li {
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-radius: 50%;
+    background: rgb(173, 170, 164);
+    margin-bottom: 63px;
     float: right;
-    outline-color: seagreen;
+    clear: right;
+    
+    
+    
 }
 
-.separator {
-    background-color: white;
-}
-
-.sidebar {
-}
-
-
-
-#fret {
-
-
-    background-color: rgb(122, 88, 70);
-}
-
-#fret2 {
-
-
-    background-color: rgb(122, 88, 70);
-}
-
-#fret3 {
-
-
-    background-color: rgb(142, 111, 95);
+.notes {
+    position: relative;
+    //top: -1em;
+    top: -13px;
+    left: -72px;
+    width: 1200px;
+    height: 0px;
+    
+    z-index: 1;
 }
 
 
-.no-gutters [class*="-6"] {
-    padding-left:0;
+.notes li {
+    display: inline-block;
+    margin: 0;
+    margin-right: 53px;
+    background-color: rgb(209, 129, 14);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.75);
+    height: 26px;
+    width: 26px;
+    color: white;
+    text-shadow: 0px 1px 2px rgb(68, 68, 68);
+    border-bottom: none;
+     
+    
+}
+
+
+/* special spacing for the 0th note */
+.notes li:nth-child(1) {
+    margin-right: 43px;
+    margin-left: -4px;
+    height: 18px;
+    width: 18px;
+    line-height: 20px;
+    font-size: 12px;
+    background-color: rgb(119, 171, 175);
 }
 
 
 
+.nut {
+    position: absolute;
+    background-color: rgb(216, 210, 192);
+    left: 36px;
+    width: 10px;
+    height: 100%;
+    z-index: 0;
+    box-shadow: inset -1px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    
+    
+}
+
+/* firefox margin workaround */
+.clear_div {
+    clear: both;
+}
 
 
 
+.notes .invisible {
+    opacity: 0;
+}
+
+.notes .invisible:nth-child(1) {
+    opacity: 100;
+    background-color: rgb(29, 49, 51);
+    color: rgb(86, 117, 119);
+}
 
 
 
+.new_container {
+    margin: 20px auto;
+    width: 993px;
+}
 
-
-
+.sub_container {
+    display: inline-block;
+    background-color: brown;
+    width: 33%;
+}

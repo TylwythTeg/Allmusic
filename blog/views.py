@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from django.template.defaulttags import register
 
 import sys
-sys.path.append("C:/Users/Rob/Django-Projects/mysite/panmusic/")
+sys.path.append("C:/Users/Rob/PythonLibs/soundkey/")
 from Scale import *
 from Note import *
 from Chord import *
@@ -12,7 +12,7 @@ from Note import *
 #def index(request):
     #return render(request, 'blog/scale_a.html')
 def index(request, scale_type):
-    print(scale_type)
+    #print(scale_type)
     scl = Scale.factory(scale_type, Note.E)
 
     return render(request, 'blog/scale_a.html',{'content': scl.notes,'scale_name': scl.name, 'scale' : scl, 'the_triads': scl.triads })
@@ -44,7 +44,7 @@ def triad(request, triad_type, root):
 
 def subchord(request, triad_type, root, sub_chord):
     chord = Chord.create(tetrad = sub_chord, root = Note.from_string(root), triad = triad_type)
-    print(chord)
+    #print(chord)
 
     #print("Is it major (class)?:", chord.is_major())
 

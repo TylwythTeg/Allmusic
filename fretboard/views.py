@@ -16,8 +16,9 @@ from Fretboard import Fretboard
 
 
 def index(request):
-    scl = Scale.factory("Phrygian", Note.E)
-    return render(request, 'fretboard/index.html',{'content': scl.notes,'scale_name': scl.name, 'scale' : scl, 'the_triads': scl.triads })
+    #scl = Scale.factory("Phrygian", Note.E)
+    #return render(request, 'fretboard/index.html',{'content': scl.notes,'scale_name': scl.name, 'scale' : scl, 'the_triads': scl.triads })
+    return render(request, "fretboard/new_fretboard.html")
 
 def scale(request, scale_type, root):
 	root = Note.from_string(root)
@@ -44,6 +45,8 @@ def scale(request, scale_type, root):
 	#fretboard in standard tuning
 	fretboard = Fretboard()
 
+	strings = fretboard.strings_reversed
+
 	#fretboard = fretboard.json()
 	#convert fretboard to json for javascript
 	fretboard =  json.dumps(fretboard, default=lambda o: o.__dict__, 
@@ -54,9 +57,10 @@ def scale(request, scale_type, root):
 	#json scale object
 	scale_json = scl.as_dict()
 	print("SNE EFEFE-------", scale_json)
+	print("SNE EFEFEeeeeee-------", fretboard)
 
 
 
 
-	return render(request, 'fretboard/fretboard.html',{'content': scl.notes, 'text_notes' : json_notes, 'scale_name': scl.name, 'scale' : scl, 'the_triads': scl.triads, 'seven_chords': scl.tetrads, 'fretboard': fretboard, 'scale_object': scale_json })
+	return render(request, 'fretboard/fretboard.html',{'content': scl.notes, 'text_notes' : json_notes, 'scale_name': scl.name, 'scale' : scl, 'the_triads': scl.triads, 'seven_chords': scl.tetrads, 'fretboard': fretboard, 'scale_object': scale_json, 'strings': strings})
 

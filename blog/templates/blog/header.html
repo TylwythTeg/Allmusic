@@ -25,7 +25,7 @@
 
 				<br>
 
-				<img class="well" id ="logo" src="{% static 'img/logo.png' %}" class="responsive-img" style='max-height:150px;' alt="tylwyth"> <!-- was something else 180px --->
+				<img class="well" id ="logo" src="{% static 'img/logo.png' %}" class="responsive-img" style='max-height:150px;' alt="tylwyth">
 				 </div>
 
 			<div class="col-sm-2" style="text-align: center">
@@ -47,8 +47,17 @@
 				<br>
 				<a href="#" >Contact</a>
 				 </div>
-
+<div class="row">
+            <div class="col-sm-4 col-md-4"></div>
+            <div class="col-sm-4 col-md-4">
+        <h1 id="scale_title" style="text-align: center ">{{scale_name}}</h1>
+                <p style="text-align: center ">{{scale.notes}}</p>
+                </div>
+            <div class="col-sm-4"></div>
 		</div>
+		
+
+        </div>
 
 
 		<div class='container-fluid'>
@@ -60,7 +69,15 @@
 	</div>
 
 
+<div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+        <h1 id="scale_title" style="text-align: center ">{{scale_name}}</h1>
+                <p style="text-align: center ">{{scale.notes}}</p>
+                </div>
+            <div class="col-sm-4"></div>
 
+        </div>
 
 	<footer>
 		<div class="container-fluid" style='margin-left:15px'>
@@ -71,3 +88,5 @@
 </body>
 
 </html>
+
+<!-- -->

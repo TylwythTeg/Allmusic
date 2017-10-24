@@ -1,0 +1,686 @@
+<html>
+    <head>
+
+        <style>
+
+h1 {
+    text-align: center;
+    margin: 0.5em 0;
+    
+}
+body {
+    margin:0;
+}
+
+.neck {
+    position: relative;
+    margin: 20px auto;
+    background-color: rgb(40, 31, 18);
+    width: 993px;
+    height: 246px;
+    box-shadow: inset -1px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    
+    /* Make elements on neck unselectable*/
+    /* And normal cursor by default */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    
+    overflow: hidden;
+    
+}
+
+/* Neck minus 0 fret is 954px */
+.frets {
+    position: absolute;
+    top: 0;
+    left: 86px;
+    width: 1200px;
+    height: 100%;
+    overflow: visible;
+}
+
+
+.frets li {
+    width 3px;
+    float: left;
+    height: 103%;
+    margin-top: -2%;
+    margin-left: 77px;
+    background-color: rgb(215, 214, 214);
+    display: inline-block;
+    border-right: 2px solid #686868;
+    
+}
+
+/* special spacing for the 0th fret */
+.frets:nth-child(1) {
+    margin-left: -160px;
+    border-right: none;
+    
+}
+
+.strings {
+    position: absolute;
+    //top: 10px;
+    top: 4%;
+    left: 6;
+    width: 948px;
+    height: 100%;
+    
+    
+}
+
+.strings li {
+    display: block;
+    border-bottom: 1px solid #958963;
+    //margin-bottom:  39px;
+    margin-bottom:  4%;
+   
+}
+
+.dots {
+    position: absolute;
+    left: 194px;
+    width: 660px;
+    height: 16px;
+    
+    top: 40%;
+    
+}
+
+.dots li {
+    float:left;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: rgb(173, 170, 164);
+    margin-right:142px;
+}
+
+/* multi dot */
+.dots_multi {
+    position: absolute;
+    left: 100px;
+    width: 820px;
+    top: 24%;
+    height: 100%
+}
+
+.dots_multi li {
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-radius: 50%;
+    background: rgb(173, 170, 164);
+    margin-bottom: 63px;
+    float: right;
+    clear: right;
+    
+    
+    
+}
+
+.notes {
+    position: relative;
+    //top: -1em;
+    top: -13px;
+    left: -72px;
+    width: 1200px;
+    height: 0px;
+    
+    z-index: 1;
+}
+
+
+.notes li {
+    display: inline-block;
+    margin: 0;
+    margin-right: 53px;
+    background-color: rgb(209, 129, 14);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.75);
+    height: 26px;
+    width: 26px;
+    color: white;
+    text-shadow: 0px 1px 2px rgb(68, 68, 68);
+    border-bottom: none;
+     
+    
+}
+
+
+/* special spacing for the 0th note */
+.notes li:nth-child(1) {
+    margin-right: 43px;
+    margin-left: -4px;
+    height: 18px;
+    width: 18px;
+    line-height: 20px;
+    font-size: 12px;
+    background-color: rgb(119, 171, 175);
+}
+
+
+
+.nut {
+    position: absolute;
+    background-color: rgb(216, 210, 192);
+    left: 36px;
+    width: 10px;
+    height: 100%;
+    z-index: 0;
+    box-shadow: inset -1px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    
+    
+}
+
+/* firefox margin workaround */
+.clear_div {
+    clear: both;
+}
+
+
+
+.notes .invisible {
+    visibility: hidden;
+}
+
+.notes .invisible:nth-child(1) {
+    visibility: visible;
+    background-color: rgb(29, 49, 51);
+    color: rgb(86, 117, 119);
+}
+
+
+
+.new_container {
+    margin: 20px auto;
+    width: 993px;
+
+    display: flex;
+    //flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.new_container2 {
+    margin: 20px auto;
+    width: 993px;
+
+    display: flex;
+    //flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.sub_container {
+    
+    
+    background-color: rgb(59, 119, 95);
+    margin: 0;
+    width: calc((100% - 2 * 15px) / 3);
+    width: calc(33% + 62px);
+
+    height: 66px;
+    text-align: center;
+    line-height: 66px;
+    color: white;
+    font-size: 2em;
+}
+
+.sub_container:nth-child(1) {
+    height: 66px;
+    text-align: center;
+    line-height: 66px;
+    color: white;
+    font-size: 2em;
+   background-color: rgb(87, 175, 140);
+}
+
+.sub_container:nth-child(3) {
+    
+    border-left: 2px solid rgb(147, 191, 173);}
+
+.new_sub_container {
+    background-color: rgb(59, 119, 95);
+    width: calc((100% - 2 * 15px) / 3);
+    width: calc(60%);
+    height: 460px;
+    font-size: 260%;
+
+
+    color:rgb(154, 175, 167) ;
+    padding: 2%;
+    display: block;
+}
+
+.new_sub_container:nth-child(1) {
+    width: 40%
+}
+
+.new_container ul {
+    list-style-type: none;padding-left: 0;
+}
+
+
+
+.new_sub_container ul {
+
+    margin-bottom: 10px;
+    height: 100%;
+    margin: 0;
+    list-style-type: none;
+padding-left: 0;
+    color: rgb(222, 234, 229);
+
+}
+
+.new_sub_container li {
+    font-size: 80%; 
+}
+
+</style>
+    </head>
+    
+    <body>
+        <h1>Guitar Fretboard Visualization</h1>
+        
+        <div class = "neck">
+            
+            <!-- An instrument will always have 13 frets (12 and the open note) -->
+            <ul class = "frets">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <!-- Clear div is a workaround...move to CSS -->
+            <ul id = "strings" class = "strings">
+                
+            </ul>
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class = "dot container">
+                <!-- The 4 normal dots on frets 3,5,7,9 that move horizontal -->
+                <ul class = "dots">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <!-- The 12th fret dot that has 2 vertical dots -->
+                <ul class = "dots_multi">
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            
+            <div class = "nut">
+               
+            </div>
+                
+            
+        </div>
+        
+        
+        <div class = "new_container">
+            <div class = "sub_container">
+                Scales
+            </div>
+            <div class = "sub_container">
+                Chords
+            
+            </div>
+            <div class = "sub_container">
+                Root: E<br>
+                Notes: E, F#, G#, A, B, C#, D#<br>
+                Tuning: E, A, D, G, B, E
+            
+            </div>
+            
+        
+        
+        </div>
+
+        <div class = "new_container2">
+            <div class = "new_sub_container">
+                Diatonic <br>
+                Melodic Minor
+                Harmonic Major
+                Harmonic Minor
+
+
+                
+            </div>
+
+            <div class = "new_sub_container">
+                Melodic Minor
+
+
+                <ul>
+                    <li>Melodic Minor</li>
+                    <li>Dorian b2</li>
+                    <li>Lydian Augmented</li>
+                    <li>Lydian Dominant</li>
+                    <li>Melodic Major</li>
+                    <li>Half Diminished</li>
+                    <li>Super Locrian</li>
+
+                </ul>
+            </div>
+            
+            </div>
+            
+        
+        
+        </div>
+        
+    </body>
+
+
+
+<script>// Dummy E Major Scale Object
+var eMajorScale = {
+    object: "scale",
+    root: "E",
+    notes: [
+        "E",
+        "F#",
+        "G#",
+        "A",
+        "B",
+        "C#",
+        "D#"
+    ]
+};
+
+// Dummy Fretboard Object of Tuning E,A,D,G,B,E
+var fretboard = {
+    object: "fretboard",
+    tuning: ["E", "A", "D", "G", "B", "E"],
+    strings: [
+        {
+            object: "guitar_string",
+            openNote: "E",
+            notes: [
+                "E",
+                "F",
+                "F#",
+                "G",
+                "G#",
+                "A",
+                "A#",
+                "B",
+                "C",
+                "C#",
+                "D",
+                "D#",
+                "E"
+            ]
+        },       
+        {
+            object: "guitar_string",
+            openNote: "A",
+            notes: [
+                "A",
+                "A#",
+                "B",
+                "C",
+                "C#",
+                "D",
+                "D#",
+                "E",
+                "F",
+                "F#",
+                "G",
+                "G#",
+                "A"
+            ]
+        },
+        {
+            object: "guitar_string",
+            openNote: "D",
+            notes: [
+                "D",
+                "D#",
+                "E",
+                "F",
+                "F#",
+                "G",
+                "G#",
+                "A",
+                "A#",
+                "B",
+                "C",
+                "C#",
+                "D",
+            ]
+        },
+        {
+            object: "guitar_string",
+            openNote: "G",
+            notes: [
+                "G",
+                "G#",
+                "A",
+                "A#",
+                "B",
+                "C",
+                "C#",
+                "D",
+                "D#",
+                "E",
+                "F",
+                "F#",
+                "G"
+            ]
+        },
+        {
+            object: "guitar_string",
+            openNote: "B",
+            notes: [
+                "B",
+                "C",
+                "C#",
+                "D",
+                "D#",
+                "E",
+                "F",
+                "F#",
+                "G",
+                "G#",
+                "A",
+                "A#",
+                "B"
+            ]
+        },
+        {
+            object: "guitar_string",
+            openNote: "E",
+            notes: [
+                "E",
+                "F",
+                "F#",
+                "G",
+                "G#",
+                "A",
+                "A#",
+                "B",
+                "C",
+                "C#",
+                "D",
+                "D#",
+                "E"
+            ]
+        }
+        
+    ]
+};
+
+
+
+
+
+// addChild(container, "li", {"class": "child"});
+function addChild(parent, child, attributes) {
+    child = document.createElement(child);
+    if (attributes) {
+        for (var attr in attributes) {
+            child.setAttribute(attr, attributes[attr])
+        }
+    }
+    parent.appendChild(child);
+    return child;
+}
+
+
+
+
+
+
+var neckElem = document.getElementsByClassName("neck")[0];
+
+var VisualFretboard = function (fretboard, element) {
+    var that = this;
+    
+    this.fretboard = fretboard;
+    this.tuning = fretboard.tuning;
+    this.element = element;
+    this.stringContainer = findStringContainer();
+    
+    createStrings();
+    createNoteContainers();
+    generateNotesOnStrings();
+    
+    /* method definitions */
+    function findStringContainer () {
+        var children = element.children;
+        var container = [];
+        for (i = 0; i < children.length; i++) {
+            var child = children[i];
+            if(child.classList.contains("strings")) {
+                container = child;
+            }
+        }
+        return container;
+    }
+    
+    function createStrings () {
+        var stringContainer = that.stringContainer;
+        var strings = that.fretboard.strings.slice().reverse();
+        
+        for (var i = 0; i < strings.length; i++) {
+            var child = addChild(stringContainer, "li", {"data-note": strings[i].openNote});
+            
+        }
+    }
+    
+    
+    function createNoteContainers () {
+        var stringElements = that.stringContainer.children;
+        that.noteContainers = [];
+        for (var i = 0; i < stringElements.length; i++) {
+            var string = stringElements[i];
+            // ".clear_div" firefox margin workaround
+            addChild(string, "div", {"class": "clear_div"});
+            var child = addChild(string, "ul", {"class": "notes"});
+            that.noteContainers.push(child);
+        }
+    }
+    
+    /*
+    function setVisibility(child) {
+        var note = child.textContent;
+        if (!(eMajorScale.notes.includes(string.notes[i])) ) {
+                child.classList.toggle("invisible");
+        }
+    }*/
+    
+
+    function createNotes(container, string) {
+        for (var i = 0; i < string.notes.length; i++) {
+            var child = addChild(container, "li");
+            child.textContent = string.notes[i];
+            
+            console.log("tes");
+            console.log(eMajorScale);
+            console.log(string.notes[i]);
+            console.log(string.notes[i] in eMajorScale.notes);
+            
+            //setVisibility(child);
+            
+            if (!(eMajorScale.notes.includes(string.notes[i])) ) {
+                child.classList.toggle("invisible");
+            }
+        }
+    }
+    
+    function generateNotesOnStrings () {
+        var containers = that.noteContainers;
+        var strings = that.fretboard.strings.slice().reverse();
+        for (var i = 0; i < containers.length; i++ ) {
+            createNotes(containers[i], strings[i] );
+        }
+    }
+    
+    
+    
+    
+    
+    
+}
+
+vf = new VisualFretboard(fretboard, neckElem);
+console.log(vf);
+
+
+/* update heights in CSS of elements according to num of strings */
+/* Change this to set CSS classes for each height */
+/*    neck.height */
+function updateHeights(vFretboard) {
+    
+    var pixels = {
+        "4": "166px",
+        "5": "206px",
+        "6": "246px",
+        "7": "286px",
+    };
+    
+    var num = vf.fretboard.strings.length;
+    
+    //var neck = document.getElementsByClassName("neck");
+    var neck = vFretboard.element;
+    neck.style.height = pixels[num];
+}
+
+updateHeights(vf);
+
+
+
+</script>
+
+</html>

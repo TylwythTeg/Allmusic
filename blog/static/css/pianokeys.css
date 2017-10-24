@@ -20,7 +20,13 @@ h1 {
 }
 ul {
     height:18.875em; 
-  width:62em;
+
+    width:62em; 
+
+
+
+  /* width:90em; */
+
   margin:5em auto; padding:3em 0 0 3em; position:relative; 
   border:1px solid #160801; border-radius:1em; 
   background:-webkit-gradient(linear, right bottom, left top, color-stop(0%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0))), url('https://f.cl.ly/items/2q1f3t0C3R1b0g081w3n/vwood.png');
@@ -48,16 +54,22 @@ ul .white {
     text-align: center;
 
 
-     float: center;
   width: 30px;
   height: 30px;
-  margin-left: 25%;
   background: #fa990f;
+
+  margin-left: 25%;
   color: #fff;
   border-radius: 50%;
   text-align: center;
   line-height: 30px;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+
+  /* Disallow text selection */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
    
 }
 
@@ -68,7 +80,6 @@ ul .white {
     text-align: center;
 
 
-     float: center;
   width: 30px;
   height: 30px;
   background: #fa990f;
@@ -77,6 +88,12 @@ ul .white {
   text-align: center;
   line-height: 30px;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+
+  /* Disallow text selection */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
    
 }
 
