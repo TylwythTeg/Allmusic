@@ -100,7 +100,7 @@ body {
     width: 41.25em;
     height: 1em;
     
-    top: 40%;
+    //top: 40.5%;
     padding: 0 0 0 2.5em;
     
 }
@@ -113,6 +113,7 @@ body {
     border-radius: 50%;
     background: rgb(173, 170, 164);
     margin-right: 8.875em;
+    margin-top: 6.25em;
 }
 
 /* multi dot */
@@ -120,7 +121,7 @@ body {
     position: absolute;
     left: 6.25em;
     width: 51.25em;
-    top: 24%;
+    top: 3.8em;
     height: 100%;
     padding: 0 0 0 2.5em;
 }
@@ -305,6 +306,7 @@ padding-left: 0;
     font-size: 80%; 
 }
 
+
 @media (max-width:320px) { 
     .neck {
     font-size: 4px;
@@ -334,22 +336,22 @@ padding-left: 0;
     }
 }
 
-@media (min-width:772px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:772px) { 
 
     .neck {
     font-size: 12px;
     }
-}
-@media (min-width:895px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+} 
 
+@media (min-width:895px) { 
     .neck {
     font-size: 14px;
     }
 
 
 
-}
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+} 
+@media (min-width:1025px) { 
 
 .neck {
     font-size: 16px;
@@ -357,7 +359,7 @@ padding-left: 0;
 
 
 }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+@media (min-width:1281px) { } 
 </style>
     </head>
     
@@ -508,25 +510,6 @@ var fretboard = {
         },
         {
             object: "guitar_string",
-            openNote: "B",
-            notes: [
-                "B",
-                "C",
-                "C#",
-                "D",
-                "D#",
-                "E",
-                "F",
-                "F#",
-                "G",
-                "G#",
-                "A",
-                "A#",
-                "B"
-            ]
-        },
-        {
-            object: "guitar_string",
             openNote: "E",
             notes: [
                 "E",
@@ -543,7 +526,25 @@ var fretboard = {
                 "D#",
                 "E"
             ]
-        }
+        },{
+            object: "guitar_string",
+            openNote: "B",
+            notes: [
+                "B",
+                "C",
+                "C#",
+                "D",
+                "D#",
+                "E",
+                "F",
+                "F#",
+                "G",
+                "G#",
+                "A",
+                "A#",
+                "B",
+            ]
+        },
         
     ]
 };
@@ -668,13 +669,15 @@ console.log(vf);
 /* update heights in CSS of elements according to num of strings */
 /* Change this to set CSS classes for each height */
 /*    neck.height */
+/* And notice how doing what I'm doing now is terrible practice because
+ it's literally inline styling */
 function updateHeights(vFretboard) {
     
     var pixels = {
-        "4": "166px",
-        "5": "206px",
-        "6": "246px",
-        "7": "286px",
+        "4": "10.375em",
+        "5": "12.875em",
+        "6": "15.375em",
+        "7": "17.875em",
     };
     
     var num = vf.fretboard.strings.length;
@@ -682,7 +685,7 @@ function updateHeights(vFretboard) {
     //var neck = document.getElementsByClassName("neck");
     var neck = vFretboard.element;
     //temp block this
-    //neck.style.height = pixels[num];
+    neck.style.height = pixels[num];
 }
 
 updateHeights(vf);
