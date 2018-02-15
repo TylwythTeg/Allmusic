@@ -3,6 +3,9 @@
 
         <style>
 
+
+
+
 h1 {
     text-align: center;
     margin: 0.5em 0;
@@ -14,11 +17,12 @@ body {
 
 .neck {
     position: relative;
-    margin: 20px auto;
+    margin: 1.25em auto;
     background-color: rgb(40, 31, 18);
-    width: 993px;
-    height: 246px;
-    box-shadow: inset -1px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    width: 62.0625em;
+    height: 15.375em;
+    //box-shadow: inset -1px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset -0.0625em 0em 0.6875em 0em rgba(0, 0, 0, 0.75);
     
     /* Make elements on neck unselectable*/
     /* And normal cursor by default */
@@ -29,35 +33,44 @@ body {
     cursor: default;
     
     overflow: hidden;
+
     
 }
+
+
 
 /* Neck minus 0 fret is 954px */
 .frets {
     position: absolute;
     top: 0;
-    left: 86px;
-    width: 1200px;
-    height: 100%;
+    left: 5.375em;
     overflow: visible;
+
+    /* test */
+
+    width: 62.0625em;
+    height: 15.375em;
+    padding: 0 0 0 2.5em;
+
 }
 
 
 .frets li {
-    width 3px;
+    width 0.1875em;
     float: left;
     height: 103%;
     margin-top: -2%;
-    margin-left: 77px;
+    margin-left: 4.8125em;
     background-color: rgb(215, 214, 214);
     display: inline-block;
-    border-right: 2px solid #686868;
+    //border-right: 2px solid #686868;
+    border-right: 0.125em solid #686868;
     
 }
 
 /* special spacing for the 0th fret */
 .frets:nth-child(1) {
-    margin-left: -160px;
+    margin-left: -10em;
     border-right: none;
     
 }
@@ -66,11 +79,11 @@ body {
     position: absolute;
     //top: 10px;
     top: 4%;
-    left: 6;
-    width: 948px;
+    left: 0.375em;
+    width: 59.25em;
     height: 100%;
     
-    
+    padding: 0 0 0 2.5em;
 }
 
 .strings li {
@@ -83,40 +96,42 @@ body {
 
 .dots {
     position: absolute;
-    left: 194px;
-    width: 660px;
-    height: 16px;
+    left: 12.125em;
+    width: 41.25em;
+    height: 1em;
     
     top: 40%;
+    padding: 0 0 0 2.5em;
     
 }
 
 .dots li {
     float:left;
     display: inline-block;
-    width: 16px;
-    height: 16px;
+    width: 1em;
+    height: 1em;
     border-radius: 50%;
     background: rgb(173, 170, 164);
-    margin-right:142px;
+    margin-right: 8.875em;
 }
 
 /* multi dot */
 .dots_multi {
     position: absolute;
-    left: 100px;
-    width: 820px;
+    left: 6.25em;
+    width: 51.25em;
     top: 24%;
-    height: 100%
+    height: 100%;
+    padding: 0 0 0 2.5em;
 }
 
 .dots_multi li {
-    width: 16px;
-    height: 16px;
+    width: 1em;
+    height: 1em;
     display: block;
     border-radius: 50%;
     background: rgb(173, 170, 164);
-    margin-bottom: 63px;
+    margin-bottom: 3.9375em;
     float: right;
     clear: right;
     
@@ -127,29 +142,31 @@ body {
 .notes {
     position: relative;
     //top: -1em;
-    top: -13px;
-    left: -72px;
-    width: 1200px;
-    height: 0px;
+    top: -0.8125em;
+    left: -4.5em;
+    width: 75em;
+    height: 0em;
+
     
     z-index: 1;
+    padding: 0 0 0 2.5em;
 }
 
 
 .notes li {
     display: inline-block;
     margin: 0;
-    margin-right: 53px;
+    margin-right: 3.3125em;
     background-color: rgb(209, 129, 14);
     border-radius: 50%;
     text-align: center;
-    line-height: 26px;
-    font-size: 16px;
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.75);
-    height: 26px;
-    width: 26px;
+    line-height: 1.625em;
+    font-size: 1em;
+    box-shadow: 0em 0.3125em 0.5em 0em rgba(0, 0, 0, 0.75);
+    height: 1.625em;
+    width: 1.625em;
     color: white;
-    text-shadow: 0px 1px 2px rgb(68, 68, 68);
+    text-shadow: 0em 0.0625em 0.125em rgb(68, 68, 68);
     border-bottom: none;
      
     
@@ -158,12 +175,12 @@ body {
 
 /* special spacing for the 0th note */
 .notes li:nth-child(1) {
-    margin-right: 43px;
-    margin-left: -4px;
-    height: 18px;
-    width: 18px;
-    line-height: 20px;
-    font-size: 12px;
+    margin-right: 3.583333em;
+    margin-left: -0.33333em;
+    height: 1.5em;
+    width: 1.5em;
+    line-height: 1.66667em;
+    font-size: 0.75em;
     background-color: rgb(119, 171, 175);
 }
 
@@ -172,13 +189,13 @@ body {
 .nut {
     position: absolute;
     background-color: rgb(216, 210, 192);
-    left: 36px;
-    width: 10px;
+    left: 2.25em;
+    width: 0.625em;
     height: 100%;
-    z-index: 0;
-    box-shadow: inset -1px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    z-index: 1;
+    box-shadow: inset -0.0625em 0px 0.6875em 0em rgba(0, 0, 0, 0.75);
     
-    
+    /* test */
 }
 
 /* firefox margin workaround */
@@ -288,6 +305,59 @@ padding-left: 0;
     font-size: 80%; 
 }
 
+@media (max-width:320px) { 
+    .neck {
+    font-size: 4px;
+    }
+}
+
+@media (min-width:320px) { 
+    .neck {
+    font-size: 4px;
+    }
+
+}
+@media (min-width:400px) { 
+    .neck {
+    font-size: 6px;
+    }
+}
+@media (min-width:520px) { 
+    .neck {
+    font-size: 8px;
+    }
+}
+
+@media (min-width:644px) { 
+    .neck {
+    font-size: 10px;
+    }
+}
+
+@media (min-width:772px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+    .neck {
+    font-size: 12px;
+    }
+}
+@media (min-width:895px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+    .neck {
+    font-size: 14px;
+    }
+
+
+
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+
+.neck {
+    font-size: 16px;
+    }
+
+
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
 </style>
     </head>
     
@@ -313,18 +383,8 @@ padding-left: 0;
                 <li></li>
             </ul>
             <!-- Clear div is a workaround...move to CSS -->
-            <ul id = "strings" class = "strings">
-                
-            </ul>
-            
-            
-            
-            
-            
-            
-            
-            
-            <div class = "dot container">
+            <ul id = "strings" class = "strings"></ul>
+             <div class = "dot container">
                 <!-- The 4 normal dots on frets 3,5,7,9 that move horizontal -->
                 <ul class = "dots">
                     <li></li>
@@ -339,66 +399,13 @@ padding-left: 0;
                 </ul>
             </div>
             
-            <div class = "nut">
-               
-            </div>
+            <div class = "nut"></div>
                 
             
         </div>
         
         
-        <div class = "new_container">
-            <div class = "sub_container">
-                Scales
-            </div>
-            <div class = "sub_container">
-                Chords
-            
-            </div>
-            <div class = "sub_container">
-                Root: E<br>
-                Notes: E, F#, G#, A, B, C#, D#<br>
-                Tuning: E, A, D, G, B, E
-            
-            </div>
-            
-        
-        
-        </div>
-
-        <div class = "new_container2">
-            <div class = "new_sub_container">
-                Diatonic <br>
-                Melodic Minor
-                Harmonic Major
-                Harmonic Minor
-
-
-                
-            </div>
-
-            <div class = "new_sub_container">
-                Melodic Minor
-
-
-                <ul>
-                    <li>Melodic Minor</li>
-                    <li>Dorian b2</li>
-                    <li>Lydian Augmented</li>
-                    <li>Lydian Dominant</li>
-                    <li>Melodic Major</li>
-                    <li>Half Diminished</li>
-                    <li>Super Locrian</li>
-
-                </ul>
-            </div>
-            
-            </div>
-            
-        
-        
-        </div>
-        
+       
     </body>
 
 
@@ -674,7 +681,8 @@ function updateHeights(vFretboard) {
     
     //var neck = document.getElementsByClassName("neck");
     var neck = vFretboard.element;
-    neck.style.height = pixels[num];
+    //temp block this
+    //neck.style.height = pixels[num];
 }
 
 updateHeights(vf);

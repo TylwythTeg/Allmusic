@@ -26,7 +26,7 @@ SECRET_KEY = 'efu4q##vvx3q^bez6kbsckfx(5z0-sk%lbrm6+^32m2wi=mnlx'
 DEBUG = True
 
 #Hosts I'm allowing
-ALLOWED_HOSTS = ["67641fb7.ngrok.io", "127.0.0.1", "655e3ecb.ngrok.io"]
+ALLOWED_HOSTS = ["f6f7aa57.ngrok.io", "127.0.0.1", "655e3ecb.ngrok.io"]
 
 
 # Application definition
