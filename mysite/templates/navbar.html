@@ -1,0 +1,174 @@
+{% load staticfiles %}
+<html lang="en">
+    <head>
+        <title>Fretboard Index</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
+        <link rel="stylesheet" href="/css/navbar.css">
+        <script type="text/javascript" src="/js/navbar.js"></script>
+    </head>
+
+    <body>
+        <div class = "top_nav">
+            <div class = "main_column">
+                <a style="" href="#">
+                    <div>Soundkey</div>
+                </a>
+                <a style="" href="#">
+                    <div>Fretboard</div>
+                </a>
+                <a style="" href="#">
+                    <div>Piano</div>
+                </a>
+                <a style="" href="#">
+                    <div>Dictionary</div>
+                </a>
+                <a style="" href="#">
+                    <div>About</div>
+                </a>
+                
+            </div>
+            <div class = "menu_column">
+                <a class ="menu_click" style="display:block" href="#">
+                    <div class = "menu_button">
+                        &#9776;
+                    </div>
+                </a>
+
+                
+            
+            </div>
+        </div>
+        
+        <div class = "bottom_nav">
+            <a style="display:block" href="#">
+                <div class="Fretboard">Fretboard</div>
+            </a>
+            <a style="display:block" href="#">
+                <div class="Piano">Piano</div>
+            </a>
+            <a style="display:block" href="#">
+                    <div class="Dictionary">Dictionary</div>
+                </a>
+            
+            
+            <a style="display:block" href="#">
+                    <div class="About">About</div>
+                </a>
+            
+           
+            
+        </div>
+    
+    {% block content %}
+    {% endblock %}
+    
+    
+    
+    <ul class = "content">
+        <div class = "section"><h2>Scales</h2></div>
+        <div class = "sub_menu">
+            <li>
+                <ul class = "sub_category">
+                    <h3>Diatonic</h3>
+                    <a href = "#"><li>Major (Ionian)</li></a>
+                    <li>Dorian</li>
+                    <li>Phrygian</li>
+                    <li>Lydian</li>
+                    <li>Mixolydian</li>
+                    <li>Natural Minor (Aeolian)</li>
+                    <li>Locrian</li>
+                </ul>
+            </li>
+            <li>
+                <ul class="sub_category">
+                    <h3>Melodic Minor</h3>
+                    <li>Melodic Minor</li>
+                    <li>Dorian b2</li>
+                    <li>Lydian Augmented</li>
+                    <li>Lydian Dominant</li>
+                    <li>Melodic Major</li>
+                    <li>Half Diminished</li>
+                    <li>Super Locrian</li>
+                </ul>
+            </li>
+            <li>
+                <ul class="sub_category">
+                    <h3>Harmonic Major</h3>
+                    <li>Harmonic Major</li>
+                    <li>Dorian b5</li>
+                    <li>Phrygian b4</li>
+                    <li>Lydian Diminished</li>
+                    <li>Mixolydian b2</li>
+                    <li>Lydian Aug #2</li>
+                    <li>Locrian Diminished 7</li>
+                </ul>
+            </li>
+            <li>
+                <ul class="sub_category">
+                    <h3>Harmonic Minor</h3>
+                    <li>Harmonic Minor</li>
+                    <li>Locrian #6</li>
+                    <li>Ionian Augmented</li>
+                    <li>Romainian</li>
+                    <li>Phrygian Dominant</li>
+                    <li>Lydian #2</li>
+                    <li>Ultra Locrian</li>
+                </ul>
+            </li>
+        </div>
+
+        
+            <div class = "section"><h2>Chords</h2></div>
+            <div class = "sub_menu">
+            <li>
+                
+                <ul class = "sub_category">
+                    <h3>Triads</h3>
+                    <a href = "#"><li>Major</li></a>
+                    <li>Minor</li>
+                    <li>Suspended Two</li>
+                    <li>Suspended Four</li>
+                    <li>Augmented</li>
+                    <li>Diminished</li>
+                    <li>Flat Five</li>
+                </ul>
+                 
+            </li>
+
+
+            </div>
+
+            <div class = "section"><h2>Notes</h2></div>
+            <div class = "sub_menu">
+            <li>
+                
+                <ul class = "sub_category">
+                    <a href = "#"><li>A</li></a>
+                    <li>A#</li>
+                    <li>B</li>
+                    <li>C</li>
+                    <li>C#</li>
+                    <li>D</li>
+                    <li>D#</li>
+                    <li>E</li>
+                    <li>F</li>
+                    <li>F#</li>
+                    <li>G</li>
+                    <li>G#</li>
+                </ul>
+                 
+            </li>
+
+            
+            </div>
+       
+            
+    </ul>
+
+    </body>
+
+
+
+
+</html>

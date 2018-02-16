@@ -26,7 +26,7 @@ SECRET_KEY = 'efu4q##vvx3q^bez6kbsckfx(5z0-sk%lbrm6+^32m2wi=mnlx'
 DEBUG = True
 
 #Hosts I'm allowing
-ALLOWED_HOSTS = ["f6f7aa57.ngrok.io", "127.0.0.1", "655e3ecb.ngrok.io"]
+ALLOWED_HOSTS = ["4232a85c.ngrok.io", "127.0.0.1", "655e3ecb.ngrok.io"]
 
 
 # Application definition
@@ -122,3 +122,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
+STATICFILES_DIRS = (
+  os.path.join(SITE_ROOT, 'static/'),
+)

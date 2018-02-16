@@ -41,7 +41,6 @@ def scale(request, scale_type, root):
 
 
 
-
 	#fretboard in standard tuning
 	fretboard = Fretboard()
 
