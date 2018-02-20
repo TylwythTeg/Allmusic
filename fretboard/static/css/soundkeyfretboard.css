@@ -14,8 +14,8 @@ body {
     position: relative;
     margin: 1.25em auto;
     background-color: rgb(40, 31, 18);
-    width: 62.0625em;
-    height: 15.375em;
+    //width: 62.0625em;
+    //height: 15.375em;
     //box-shadow: inset -1px 0px 11px 0px rgba(0, 0, 0, 0.75);
     box-shadow: inset -0.0625em 0em 0.6875em 0em rgba(0, 0, 0, 0.75);
     
@@ -29,6 +29,12 @@ body {
     
     overflow: hidden;
 
+
+    /* transition additions */
+    font-size: 5px;
+    width: 60.8em;
+    height: 16em;
+
     
 }
 
@@ -38,13 +44,13 @@ body {
 .frets {
     position: absolute;
     top: 0;
-    left: 5.375em;
+    left: 5.6em;
     overflow: visible;
 
     /* test */
 
     width: 62.0625em;
-    height: 15.375em;
+    height: 16em;
     padding: 0 0 0 2.5em;
 
 }
@@ -52,14 +58,20 @@ body {
 
 .frets li {
     width 0.1875em;
-    float: left;
+    //float: left;
     height: 103%;
     margin-top: -2%;
-    margin-left: 4.8125em;
+    margin-left: 4.4em;
     background-color: rgb(215, 214, 214);
     display: inline-block;
     //border-right: 2px solid #686868;
-    border-right: 0.125em solid #686868;
+    //border-right: 0.125em solid #686868;
+
+    //border-right: 0.125em solid #686868;
+
+        border-right: 1px solid #686868;
+        box-sizing: border-box;
+
     
 }
 
@@ -70,10 +82,15 @@ body {
     
 }
 
+.frets li:last-child {
+    border: none;
+    
+}
+
 .strings {
     position: absolute;
     //top: 10px;
-    top: 4%;
+    top: 0.6em;
     left: 0.375em;
     width: 59.25em;
     height: 100%;
@@ -91,7 +108,7 @@ body {
 
 .dots {
     position: absolute;
-    left: 12.125em;
+    left: 11.8em;
     width: 41.25em;
     height: 1em;
     
@@ -107,16 +124,16 @@ body {
     height: 1em;
     border-radius: 50%;
     background: rgb(173, 170, 164);
-    margin-right: 8.875em;
-    margin-top: 6.25em;
+    margin-right: 8.6em;
+    margin-top: 6.6em;
 }
 
 /* multi dot */
 .dots_multi {
     position: absolute;
-    left: 6.25em;
+    left: 5em;
     width: 51.25em;
-    top: 3.8em;
+    top: 4.2em;
     height: 100%;
     padding: 0 0 0 2.5em;
 }
@@ -138,8 +155,8 @@ body {
 .notes {
     position: relative;
     //top: -1em;
-    top: -0.8125em;
-    left: -4.5em;
+    top: -0.6em;
+    left: -4.4em;
     width: 75em;
     height: 0em;
 
@@ -150,17 +167,17 @@ body {
 
 
 .notes li {
-    display: inline-block;
+    float: left;
     margin: 0;
-    margin-right: 3.03em;
+    margin-right: 3.25em;
     background-color: rgb(209, 129, 14);
     border-radius: 50%;
     text-align: center;
-    line-height: 1.625em;
-    font-size: 1em;
+    line-height: 1.6em;
+    //font-size: 1em;
     box-shadow: 0em 0.3125em 0.5em 0em rgba(0, 0, 0, 0.75);
-    height: 1.625em;
-    width: 1.625em;
+    height: 1.6em;
+    width: 1.6em;
     color: white;
     text-shadow: 0em 0.0625em 0.125em rgb(68, 68, 68);
     border-bottom: none;
@@ -171,11 +188,11 @@ body {
 
 /* special spacing for the 0th note */
 .notes li:nth-child(1) {
-    margin-right: 3.583333em;
-    margin-left: -0.33333em;
+    margin-right: 12px;
+    margin-left: -0.4em;
     height: 1.5em;
     width: 1.5em;
-    line-height: 1.66667em;
+    line-height: 2em;
     font-size: 0.75em;
     background-color: rgb(119, 171, 175);
 }
@@ -306,55 +323,70 @@ padding-left: 0;
 
 
 
-
-@media (max-width:170px) { 
-    .neck {
-    font-size: 3px;
-    }
-}
-
-@media (max-width:170px) { 
-    .neck {
-    font-size: 3px;
-    }
-}
-
-@media (min-width:245px) { 
-    .neck {
-    font-size: 4px;
-    }
-
-}
-@media (min-width:325px) { 
-    .neck {
-    font-size: 5px;
-    }
-
-}
-@media (min-width:390px) { 
+@media (min-width:400px) { 
     .neck {
     font-size: 6px;
     }
+    .notes li {
+        margin-right: 3.24em;
+    }
+    .notes li:nth-child(1) {
+        margin-right: 3.4em;
+    }
+    .dots {
+        margin-right: 9em;
+    }
 }
-@media (min-width:460px) { 
+@media (min-width:475px) { 
     .neck {
     font-size: 7px;
+    }
+    .notes li {
+        margin-right: 3.21em;
+    }
+    .notes li:nth-child(1) {
+        margin-right: 3.6em;
     }
 }
 @media (min-width:520px) { 
     .neck {
     font-size: 8px;
     }
+    .notes li {
+        margin-right: 3.24em;
+    }
+    .notes li:nth-child(1) {
+        margin-right: 3.4em;
+    }
+    .frets li {
+        margin-left: 4.45em;
+    }
 }
 @media (min-width:595px) { 
     .neck {
     font-size: 9px;
+    height: 15.78em;
+    }
+    .dots li{
+        margin-right: 8.7em;
     }
 }
 
 @media (min-width:644px) { 
     .neck {
     font-size: 10px;
+    }
+    .notes li {
+        margin-right: 3.24em;
+    }
+    .notes li:nth-child(1) {
+        margin-right: 3.5em;
+    }
+    .frets li {
+        margin-left: 4.49em;
+    }
+    .dots_multi {
+        left: 5.2em;
     }
 }
 
@@ -364,7 +396,8 @@ padding-left: 0;
     }
 }
 
-@media (min-width:784px) { 
+/* maybe? edit here?*/
+@media (min-width:847px) { 
 
     .neck {
     font-size: 12px;

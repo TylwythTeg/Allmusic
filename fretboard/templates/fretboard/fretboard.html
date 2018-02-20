@@ -1,74 +1,71 @@
 {% extends "header.html" %}
-
 {% block content %}
-    	
-        <div class = "neck">
-            
-            <!-- An instrument will always have 13 frets (12 and the open note) -->
-            <ul class = "frets">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <!-- Clear div is a workaround...move to CSS -->
-            <ul id = "strings" class = "strings">
-                {% for string in strings %}
-                    <li data-note="{{ string.root }}">
-                            <div class = "clear_div"></div>
-                        <ul class = "notes">
-                            {% for note in string.notes %}
-                                {% if note in scale_object.notes %}
-                                    <li>{{note}}</li>
-                                {% else %}
-                                    <li class = "invisible">{{note}}</li>
-                                {% endif %}
-                            {% endfor %}
-                        </ul>
-                    </li>
-                {% endfor %}
-                
-            </ul>
-            
-            
-            
-            
-            
-            
-            <div class = "dot container">
-                <!-- The 4 normal dots on frets 3,5,7,9 that move horizontal -->
-                <ul class = "dots">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+
+<div class = "neck">
+    
+    <!-- An instrument will always have 13 frets (12 and the open note) -->
+    <ul class = "frets">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- Clear div is a workaround...move to CSS -->
+    <ul id = "strings" class = "strings">
+        {% for string in strings %}
+            <li data-note="{{ string.root }}">
+                    <div class = "clear_div"></div>
+                <ul class = "notes">
+                    {% for note in string.notes %}
+                        {% if note in scale_object.notes %}
+                            <li>{{note}}</li>
+                        {% else %}
+                            <li class = "invisible">{{note}}</li>
+                        {% endif %}
+                    {% endfor %}
                 </ul>
-                <!-- The 12th fret dot that has 2 vertical dots -->
-                <ul class = "dots_multi">
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            
-            <div class = "nut">
-               
-            </div>
-                
-            
-        </div>
-
-
-
+            </li>
+        {% endfor %}
+    </ul>
+    
+    
+    
+    
+    
+    
+    <div class = "dot container">
+        <!-- The 4 normal dots on frets 3,5,7,9 that move horizontal -->
+        <ul class = "dots">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <!-- The 12th fret dot that has 2 vertical dots -->
+        <ul class = "dots_multi">
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    
+    <div class = "nut">
+       
+    </div>
+        
+    
+</div>
 
 
 
 {% endblock %}
+
+
+
