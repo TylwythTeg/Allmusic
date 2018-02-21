@@ -7,14 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     clickable.addEventListener("click", callback);
 
-
-
     var close = document.getElementById("close-menu-button");
     close.addEventListener("click", callback);
-
-
-
-
 
 });
 

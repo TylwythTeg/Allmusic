@@ -183,3 +183,18 @@ a {
 .bottom_nav.show {
     display: block;
 }
+
+
+
+#soundkey-object-name {
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(66, 134, 244);
+    font-size: 2em;
+}
+
+#sk-container {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
