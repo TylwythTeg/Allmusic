@@ -8,10 +8,34 @@
     
         <script type="text/javascript" src="/static/js/navbar.js"></script>
         <link rel="stylesheet" href="/static/css/navbar.css">
-          <link rel="stylesheet" href="/static/css/soundkeyfretboard.css">
+        <link rel="stylesheet" href="/static/css/soundkeyfretboard.css">
+
+        <link rel="stylesheet" href="/static/css/sidebar.css">
+        <script type="text/javascript" src="/static/js/sidebar.js"></script>
     </head>
 
     <body>
+        <!-- sidebar -->
+        <div class="chord-scale-sidebar" id="chord-scale-sidebar">
+            <h3 class="menu-level1">Scales</h3>
+            <ul class="menu-level-1">
+                <li class="menu-level-2">Diatonic</li>
+                <li class="menu-level-2">Melodic Minor</li>
+                <li class="menu-level-2">Harmonic Major</li>
+                <li class="menu-level-2">Harmonic Minor</li>
+                <li class="menu-level-2">Double Harmonic Major</li>
+            </ul>
+            <h3 class="menu-level1">Chords</h3>
+
+        </div>
+        <!-- sidebar -->
+
+
+
+
+
+
+
         <div class = "top_nav">
             <div class = "main_column">
                 <a style="" href="#">
@@ -59,6 +83,16 @@
     
     {% block content %}
     {% endblock %}
+
+    <a id = "soundkey-object-name" href = "#" >Double Harmonic Major</a>
+
+
+
+    
+
+
+   
+
 
 
     </body>

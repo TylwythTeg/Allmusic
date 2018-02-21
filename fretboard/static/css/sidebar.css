@@ -1,0 +1,13 @@
+.chord-scale-sidebar {  
+    background-color: #d6d6d6;
+    display: none;
+}
+
+.visible {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: block;
+    overflow: auto;
+}
