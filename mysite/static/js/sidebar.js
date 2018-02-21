@@ -9,6 +9,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+    var close = document.getElementById("close-menu-button");
+    close.addEventListener("click", callback);
+
+
+
 
 
 });
