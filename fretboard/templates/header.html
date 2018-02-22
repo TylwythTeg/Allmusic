@@ -24,13 +24,15 @@
                     <li> <div class ="menu-level-2"><h4>Diatonic</h4></div>  
                         <ul class="menu-level-3">
                         
-                            <li><a href="#">Ionian</a></li>
-                            <li><a href="#">Dorian</a></li>
-                            <li><a href="#">Phrygian</a></li>
-                            <li><a href="#">Lydian</a></li>
-                            <li><a href="#">Mixolydian</a></li>
-                            <li><a href="#">Aeolian</a></li>
-                            <li><a href="#">Locrian</a></li> 
+                            {% with Ionian="Ionian" Dorian="Dorian" Phrygian="Phrygian" Lydian="Lydian" Mixolydian="Mixolydian" Aeolian="Aeolian" Locrian="Locrian" %}
+                            <li><a href="{% url 'fretboardscale' Ionian scale.root %}">Ionian</a></li>
+                            <li><a href="{% url 'fretboardscale' Dorian scale.root %}">Dorian</a></li>
+                            <li><a href="{% url 'fretboardscale' Phrygian scale.root %}">Phrygian</a></li>
+                            <li><a href="{% url 'fretboardscale' Lydian scale.root %}">Lydian</a></li>
+                            <li><a href="{% url 'fretboardscale' Mixolydian scale.root %}">Mixolydian</a></li>
+                            <li><a href="{% url 'fretboardscale' Aeolian scale.root %}">Aeolian</a></li>
+                            <li><a href="{% url 'fretboardscale' Locrian scale.root %}">Locrian</a></li> 
+                            {% endwith %}
                         </ul>
                     </li>
 
@@ -109,7 +111,7 @@
     {% block content %}
     {% endblock %}
 
-    <div id = "sk-container"><a id = "soundkey-object-name" href = "#" >Double Harmonic Major</a> </div>
+    <div id = "sk-container"><a id = "soundkey-object-name" href = "#" >{{scale.name}}</a> </div>
 
 
 
