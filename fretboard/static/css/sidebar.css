@@ -6,8 +6,8 @@
 }
 
 .visible {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     position: absolute;
     z-index: 10;
     display: block;
@@ -36,6 +36,8 @@
 
 .main-menu {
     margin: 0 auto;
+    cursor: grab;
+    user-select: none;
     //width: 50%;
 }
 
@@ -64,6 +66,10 @@
     font-size: 1.2em;
     font-weight: normal;
     cursor: pointer;
+    background-color: transparent;
+    //color: #8384aa;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .menu-level-2 h4:hover {
@@ -72,6 +78,7 @@
 
 .menu-level-3 {
     text-align: center;
+    display: none;
 }
 
 /* The actual scale items */
@@ -80,3 +87,14 @@
     line-height: 2.4em;
 }
 
+.menu-level-3 li a:hover {
+    color: #1a7faf;
+    //color: #1aaf8e;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.items-visible {
+    display: block;
+}
