@@ -58,7 +58,10 @@
 .menu-level-2 {
     height: 3em;
     text-align: center;
+    //background-color: rgba(94, 92, 85,0.5);
 }
+
+
 
 .menu-level-2 h4 {
     margin: 0;
@@ -72,6 +75,18 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+.menu-level-2 h4::after {
+       display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
 .menu-level-2 h4:hover {
     cursor: pointer;
 }
@@ -79,12 +94,19 @@
 .menu-level-3 {
     text-align: center;
     display: none;
+    list-style-type: none;
 }
 
 /* The actual scale items */
 .menu-level-3 li {
     height: 2.4em;
     line-height: 2.4em;
+
+}
+
+.menu-level-3 li a{
+    
+    color: #bababa;
 }
 
 .menu-level-3 li a:hover {
@@ -98,3 +120,4 @@
 .items-visible {
     display: block;
 }
+
