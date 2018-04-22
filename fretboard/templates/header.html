@@ -78,22 +78,52 @@
 
                 </ul>
                 <div class = "menu-level-1"><h3>Chords</h3></div>
-                <ul>
-                    <li> <div class ="menu-level-2"><h4>Major</h4></div>  
-                    </li>
-                    <li> <div class ="menu-level-2"><h4>Minor</h4></div>  
-                    </li>
-                    <li> <div class ="menu-level-2"><h4>Diminished</h4></div>  
-                    </li>
-                    <li> <div class ="menu-level-2"><h4>Augmented</h4></div>  
-                    </li>
-                    <li> <div class ="menu-level-2"><h4>Suspended</h4></div>  
-                    </li>
-                    <li> <div class ="menu-level-2"><h4>Flat Five</h4></div>  
-                    </li>
+                <form class="chord-select-container">
+                    <div class ="notes-chord-menu">
+                        <input type="radio" id="A" name = "note" value = "A" > <label for="A"><h4>A</h4></label>
+                        <input type="radio" id="A#" name = "note" value = "A#" > <label for="A#"><h4>A#</h4></label>
+                        <input type="radio" id="B" name = "note" value = "B" > <label for="B"><h4>B</h4></label>
+                        <input type="radio" id="C" name = "note" value = "C" > <label for="C"><h4>C</h4></label>
+                    </div>
+
+                    <div class ="notes-chord-menu">
+                        <input type="radio" id="C#" name = "note" value = "C#" > <label for="C#"><h4>C#</h4></label>
+                        <input type="radio" id="D" name = "note" value = "D" > <label for="D"><h4>D</h4></label>
+                        <input type="radio" id="D#" name = "note" value = "D#" > <label for="D#"><h4>D#</h4></label>
+                        <input type="radio" id="E" name = "note" value = "E" > <label for="E"><h4>E</h4></label>  
+                    </div>
+
+                    <div class ="notes-chord-menu">
+                    <input type="radio" id="F" name = "note" value = "F" > <label for="F"><h4>F</h4></label>
+                        <input type="radio" id="F#" name = "note" value = "F#" > <label for="F#"><h4>F#</h4></label>
+                        <input type="radio" id="G" name = "note" value = "G" > <label for="G"><h4>G</h4></label>
+                        <input type="radio" id="G#" name = "note" value = "G#" > <label for="G#"><h4>G#</h4></label>
+                    </div>
+                    
 
 
-                </ul>
+                    <div class ="basic-chord-construction">
+                        <input type="radio" id="Major" name = "basic-structure" value = "Major"> <label for="Major"><h4>Maj</h4></label>  
+                        <input type="radio" id="Minor" name = "basic-structure" value = "Minor"> <label for="Minor"><h4>Min</h4></label>
+                        <input type="radio" id="Diminished" name = "basic-structure" value = "Diminished"> <label for="Diminished"><h4>Dim</h4></label>  
+                        <input type="radio" id="Augmented" name = "basic-structure" value = "Augmented"> <label for="Augmented"><h4>Aug</h4></label> 
+                        <input type="radio" id="Suspended" name = "basic-structure" value = "Suspended"> <label for="Suspended"><h4>Sus</h4></label> 
+                    </div>
+
+                    <!-- container needs its own class I think (and name inputs) -->
+                    <div class ="extended-chord-construction">
+                        <input type="checkbox" id="Seventh" name = "extended-structure" value = "Seventh"> <label for="Seventh"><h4>7</h4></label>  
+                        <input type="checkbox" id="Ninth" name = "extended-structure" value = "Ninth"> <label for="Ninth"><h4>9</h4></label>
+                        <input type="checkbox" id="Eleventh" name = "extended-structure" value = "Eleventh"> <label for="Eleventh"><h4>11</h4></label>  
+                        <input type="checkbox" id="Thirteenth" name = "extended-structure" value = "Thirteenth"> <label for="Thirteenth"><h4>13</h4></label> 
+                    </div>
+
+                    <!-- container needs its own class I think (and name inputs) 
+                    <div class ="add-button">
+                        <button type="button" id="Seventh" name = "extended-structure" value = "+">+</button>
+                    </div>-->
+                
+                </form>
             </ul>
 
         </div>

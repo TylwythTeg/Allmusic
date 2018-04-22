@@ -198,3 +198,140 @@ a {
     width: 50%;
     text-align: center;
 }
+
+.chord-select-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    list-style-type: none;
+    flex-direction: column;
+
+
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="radio"]+label {
+    background-color: rgba(52, 49, 61,0);
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+
+
+}
+
+#Seventh {
+    background-color: red;
+    border: none;
+
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    padding: 0 ;
+}
+
+.basic-chord-construction input:checked+label {
+    background-color: rgba(73, 67, 89,0.75);
+    color: rgb(244, 244, 244); 
+}
+
+input[type="checkbox"]checked+lavel {
+   background-color: rgba(73, 67, 89,0.75);
+    color: rgb(244, 244, 244); 
+}
+
+.extended-chord-construction input:checked+label {
+    background-color: rgba(73, 67, 89,0.75);
+    color: rgb(244, 244, 244); 
+}
+
+.notes-chord-menu input:checked+label {
+    background-color: rgba(73, 67, 89,0.75);
+    color: rgb(244, 244, 244); 
+}
+
+
+
+.basic-chord-construction input+label h4 {
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.extended-chord-construction input+label h4 {
+    margin: 5px 10px;
+    text-align: center;
+
+}
+
+.extended-chord-construction input+label h4 {
+    margin: 5px 10px;
+    text-align: center;
+
+color: rgb(183, 183, 183);
+}
+input[type="radio"]:hover+label {
+    background-color: rgba(52, 49, 61,0.75);
+    color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+
+.basic-chord-construction {
+    display: flex;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.extended-chord-construction {
+    display: flex;
+    display: none;
+    width: 100%;
+    align-items: stretch;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.notes-chord-menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom :10px;
+
+}
+
+.notes-chord-menu input+label h4 {
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.notes input+label h4 {
+    margin: 5px 10px;
+    text-align: center;
+}
+
+
+input[type="checkbox"]:hover+label {
+    //background-color: rgba(52, 49, 61,0.75);
+    color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+
+
+.extended-chord-construction.d-visible {
+    display: flex;
+}
+
+

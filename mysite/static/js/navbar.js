@@ -22,6 +22,29 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 
+
+
+    var triadSelection = document.getElementsByClassName("basic-chord-construction")[0];
+    var extendedSelection = document.getElementsByClassName("extended-chord-construction")[0];
+
+    triadSelection.addEventListener("click", function(event) {
+        //alert(event.target.tagName);
+        if (event.target.tagName === "INPUT") {
+            extendedSelection.classList.add("d-visible");
+        }
+    });
+
+
+
+    //
+    var seven = document.getElementById("Seventh");
+    seven.addEventListener("click", function(event) {
+        //alert(event.target.checked);
+    });
+
+
+
+
 });
 
 
